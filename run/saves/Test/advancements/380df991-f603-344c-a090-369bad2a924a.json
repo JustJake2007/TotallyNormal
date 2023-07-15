@@ -1,0 +1,28 @@
+{
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-07-14 20:45:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-07-14 20:47:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2023-07-14 20:48:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2023-07-14 20:44:24 -0400",
+      "minecraft:savanna": "2023-07-14 20:44:19 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Dirts"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "airColor": {
+      "value": -13229043,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.DIRT#0"
+    },
+    "portalParticles": {
+      "value": "SPIT"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Dirt And Steel",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "dirt_and_steel",
+    "portalTexture": "dirt2",
+    "enablePortal": true
+  }
+}

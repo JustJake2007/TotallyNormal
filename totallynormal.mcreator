@@ -1,0 +1,124 @@
+{
+  "mod_elements": [
+    {
+      "name": "DirtApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirtApple",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_apple"
+    },
+    {
+      "name": "DirtAppleBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_apple_block"
+    },
+    {
+      "name": "DirtTablet",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_tablet"
+    },
+    {
+      "name": "Mud",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Dirts",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirts"
+    },
+    {
+      "name": "LivingDirtBlock",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "living_dirt_block"
+    },
+    {
+      "name": "Dirt",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "metadata": {
+        "ep": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "fluid.totallynormal.mud": "Mud",
+      "biome.totallynormal.dirts": "Dirts",
+      "block.totallynormal.mud": "Mud",
+      "item.totallynormal.mud_bucket": "Mud Bucket",
+      "block.totallynormal.dirt_apple_block": "Dirt Apple Block",
+      "item.totallynormal.dirt": "Dirt And Steel",
+      "entity.totallynormal.living_dirt_block": "Living Dirt Block",
+      "item.totallynormal.dirt_apple": "Dirt Apple",
+      "item.totallynormal.living_dirt_block_spawn_egg": "Living Dirt Block Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dirt",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "totallynormal",
+    "modName": "Totallynormal",
+    "version": "1.0.0",
+    "author": "hite1, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.totallynormal",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

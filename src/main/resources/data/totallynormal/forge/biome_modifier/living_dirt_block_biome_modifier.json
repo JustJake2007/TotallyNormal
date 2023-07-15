@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "totallynormal:dirts",
+  "spawners": {
+    "type": "totallynormal:living_dirt_block",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}
