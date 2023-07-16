@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:when_you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple"
+    },
+    "title": {
+      "translate": "advancements.eating_half_golden_apple.title"
+    },
+    "description": {
+      "translate": "advancements.eating_half_golden_apple.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "eating_half_golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "totallynormal:when_you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "totallynormal:entities/apple"
+    ]
+  },
+  "parent": "totallynormal:eat_lapis_apple"
+}

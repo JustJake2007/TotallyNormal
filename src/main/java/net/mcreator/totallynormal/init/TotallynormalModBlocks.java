@@ -15,6 +15,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.totallynormal.block.MudBlock;
+import net.mcreator.totallynormal.block.Dirt_OreOreBlock;
+import net.mcreator.totallynormal.block.Dirt_OreBlockBlock;
 import net.mcreator.totallynormal.block.DirtPortalBlock;
 import net.mcreator.totallynormal.block.DirtAppleBlockBlock;
 import net.mcreator.totallynormal.TotallynormalMod;
@@ -24,6 +26,8 @@ public class TotallynormalModBlocks {
 	public static final RegistryObject<Block> DIRT_PORTAL = REGISTRY.register("dirt_portal", () -> new DirtPortalBlock());
 	public static final RegistryObject<Block> DIRT_APPLE_BLOCK = REGISTRY.register("dirt_apple_block", () -> new DirtAppleBlockBlock());
 	public static final RegistryObject<Block> MUD = REGISTRY.register("mud", () -> new MudBlock());
+	public static final RegistryObject<Block> DIRT_ORE_ORE = REGISTRY.register("dirt_ore_ore", () -> new Dirt_OreOreBlock());
+	public static final RegistryObject<Block> DIRT_ORE_BLOCK = REGISTRY.register("dirt_ore_block", () -> new Dirt_OreBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

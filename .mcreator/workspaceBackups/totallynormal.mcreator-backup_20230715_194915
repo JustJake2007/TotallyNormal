@@ -1,0 +1,879 @@
+{
+  "mod_elements": [
+    {
+      "name": "DirtApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dirt"
+    },
+    {
+      "name": "DirtApple",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_apple",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "DirtAppleBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_apple_block",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "DirtTablet",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_tablet",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Mud",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirts",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirts",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "LivingDirtBlock",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "living_dirt_block",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreIngot",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_ingot",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_ore",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_block",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_ore_block_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_block_ore_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreOreSmelting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_ore_smelting",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OrePickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_pickaxe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_axe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_sword",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_shovel",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_hoe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OrePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_pickaxe_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreAxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_axe_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreSwordRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_sword_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreShovelRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_shovel_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreHoeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_hoe_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreArmor",
+      "type": "armor",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_armor_helmet_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_armor_body_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_armor_leggings_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Dirt_OreArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ore_armor_boots_recipe",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "DirtAndSteel",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_and_steel",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "Starting",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starting"
+    },
+    {
+      "name": "StartOfDirt",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_of_dirt",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "GoingToDirtDimension",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "going_to_dirt_dimension",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "DirtIngotGathered",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_ingot_gathered",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "EatDirtApple",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_dirt_apple",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "DirtAppleCrafting",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_apple_crafting",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "WearDirtArmor",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wear_dirt_armor",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "WearingDirtArmor",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wearing_dirt_armor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dirt"
+    },
+    {
+      "name": "DirtCow",
+      "type": "livingentity",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_cow",
+      "path": "~/Dirt"
+    },
+    {
+      "name": "EatIronApple",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_iron_apple",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "IronApple",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "IronAppleRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_apple_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "FirstApple",
+      "type": "achievement",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "DiamondApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "DiamondApple",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "DiamondAppleRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "EatIronAppleA",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_iron_apple_a",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "NetheriteApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "NetheriteApple",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "NetheriteAppleRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "EatDiamondApple",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_diamond_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "LapisApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "LapisApple",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "LapisAppleRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_apple_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "YouDontHaveEnoughGoldAndYouUseSomeLapisInsteadApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "WhenYouDontHaveEnoughGoldAndYouUseSomeLapisInsteadApple",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "WhenYouDontHaveEnoughGoldAndYouUseSomeLapisInsteadAppleRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "EatLapisApple",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_lapis_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Apple",
+      "type": "loottable",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "EatingHalfGoldenApple",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eating_half_golden_apple",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "AppleSword",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_sword",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "AppleSwordA",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_sword_a",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "AppleSwordRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_sword_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemPickaxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_pickaxe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemAxe",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_axe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemSword",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_sword",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemShovel",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_shovel",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemHoe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_hoe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_pickaxe_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemAxeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_axe_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_sword_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemShovelRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_shovel_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemHoeRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_hoe_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemArmor",
+      "type": "armor",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_armor_helmet_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_armor_body_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_armor_leggings_recipe",
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Emerald_GemArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gem_armor_boots_recipe",
+      "path": "~/New Apples"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.totallynormal.when_you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple": "When You Dont Have Enough Gold And You Use Some Lapis Instead Apple",
+      "item.totallynormal.emerald_gem_shovel": "Emerald Shovel",
+      "item.totallynormal.dirt_ore_armor_helmet": "Dirt Helmet",
+      "advancements.eating_half_golden_apple.descr": "You had to cheap out on materials",
+      "item.totallynormal.apple_sword": "Apple Sword",
+      "block.totallynormal.dirt_ore_block": "Block of Dirt",
+      "advancements.eating_half_golden_apple.title": "Cheapskate",
+      "advancements.apple_sword_a.descr": "I mean it looks nice",
+      "item.totallynormal.mud_bucket": "Mud Bucket",
+      "advancements.dirt_ingot_gathered.descr": "You\u0027ve Smelted Your First Dirt Ingot! I wonder what can be done with this!",
+      "item.totallynormal.dirt_ore_armor_chestplate": "Dirt Chestplate",
+      "item.totallynormal.dirt_ore_armor_boots": "Dirt Boots",
+      "advancements.dirt_ingot_gathered.title": "Dirt...Ore?",
+      "advancements.eat_dirt_apple.descr": "Why would you do that!?",
+      "advancements.eat_diamond_apple.descr": "Eat A Diamond Apple :O",
+      "advancements.starting.descr": "Starting another weird adventure again...",
+      "item.totallynormal.dirt": "Dirt And Steel",
+      "advancements.apple_sword_a.title": "You crafted an... apple sword?",
+      "item.totallynormal.dirt_ore_hoe": "Dirt Hoe",
+      "advancements.first_apple.descr": "Collect your first apple!",
+      "item.totallynormal.netherite_apple": "Netherite Apple",
+      "item.totallynormal.lapis_apple": "Lapis Apple",
+      "advancements.eat_lapis_apple.descr": "Eat A Lapis Apple",
+      "item.totallynormal.diamond_apple": "Diamond Apple",
+      "item.totallynormal.emerald_gem_armor_helmet": "Emerald Helmet",
+      "item.totallynormal.emerald_gem_armor_boots": "Emerald Boots",
+      "biome.totallynormal.dirts": "Dirts",
+      "item.totallynormal.iron_apple": "Iron Apple",
+      "item.totallynormal.dirt_ore_armor_leggings": "Dirt Leggings",
+      "item.totallynormal.emerald_gem_axe": "Emerald Axe",
+      "advancements.eat_iron_apple_a.title": "Eat An Iron Apple",
+      "item.totallynormal.emerald_gem_sword": "Emerald Sword",
+      "advancements.going_to_dirt_dimension.title": "You\u0027ve Arrived",
+      "block.totallynormal.dirt_ore_ore": "Dirt Ore",
+      "advancements.wear_dirt_armor.descr": "Getting Dirty With Dirt Armor",
+      "advancements.start_of_dirt.descr": "You\u0027ve collected your first dirt block",
+      "block.totallynormal.dirt_apple_block": "Dirt Apple Block",
+      "advancements.wear_dirt_armor.title": "Suiting... Up?",
+      "item.totallynormal.dirt_ore_shovel": "Dirt Shovel",
+      "item.totallynormal.dirt_apple": "Dirt Apple",
+      "advancements.first_apple.title": "First Apple",
+      "advancements.start_of_dirt.title": "Start Of Something Big",
+      "item.totallynormal.emerald_gem_armor_leggings": "Emerald Leggings",
+      "item.totallynormal.dirt_ore_ingot": "Dirt Ingot",
+      "item.totallynormal.emerald_gem_armor_chestplate": "Emerald Chestplate",
+      "item.totallynormal.dirt_ore_axe": "Dirt Axe",
+      "item.totallynormal.dirt_ore_sword": "Dirt Sword",
+      "advancements.eat_diamond_apple.title": "Eat A Diamond Apple",
+      "item.totallynormal.emerald_gem_pickaxe": "Emerald Pickaxe",
+      "item.totallynormal.dirt_cow_spawn_egg": "Dirt Cow Spawn Egg",
+      "item.totallynormal.emerald_gem_hoe": "Emerald Hoe",
+      "advancements.starting.title": "Aw s**t, here we go again",
+      "advancements.eat_lapis_apple.title": "Eat A Lapis Apple",
+      "advancements.eat_iron_apple_a.descr": "Eat your first Iron Apple",
+      "fluid.totallynormal.mud": "Mud",
+      "advancements.going_to_dirt_dimension.descr": "You\u0027ve arrived in the... dirt dimension?",
+      "block.totallynormal.mud": "Mud",
+      "advancements.eat_dirt_apple.title": "Eat A Dirt Apple",
+      "entity.totallynormal.dirt_cow": "Dirt Cow",
+      "entity.totallynormal.living_dirt_block": "Living Dirt Block",
+      "item.totallynormal.dirt_ore_pickaxe": "Dirt Pickaxe",
+      "item.totallynormal.living_dirt_block_spawn_egg": "Living Dirt Block Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dirt",
+        "children": []
+      },
+      {
+        "name": "New Apples",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "totallynormal",
+    "modName": "Totallynormal",
+    "version": "1.0.1",
+    "author": "hite1, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.totallynormal",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

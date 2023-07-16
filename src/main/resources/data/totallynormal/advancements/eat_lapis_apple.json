@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:lapis_apple"
+    },
+    "title": {
+      "translate": "advancements.eat_lapis_apple.title"
+    },
+    "description": {
+      "translate": "advancements.eat_lapis_apple.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_lapis_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "totallynormal:lapis_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "totallynormal:halflapisrecipe"
+    ]
+  },
+  "parent": "totallynormal:first_apple"
+}

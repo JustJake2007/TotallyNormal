@@ -20,6 +20,7 @@ import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.AmbientParticleSettings;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.Music;
@@ -33,6 +34,7 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.mcreator.totallynormal.world.features.treedecorators.DirtsTrunkDecorator;
 import net.mcreator.totallynormal.world.features.treedecorators.DirtsLeaveDecorator;
 import net.mcreator.totallynormal.world.features.treedecorators.DirtsFruitDecorator;
+import net.mcreator.totallynormal.init.TotallynormalModEntities;
 
 import java.util.List;
 
@@ -68,6 +70,8 @@ public class DirtsBiome {
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSculk(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
+		mobSpawnInfo.addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(TotallynormalModEntities.LIVING_DIRT_BLOCK.get(), 20, 1, 2));
+		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(TotallynormalModEntities.DIRT_COW.get(), 20, 1, 10));
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).temperature(0.5f).downfall(0.5f).specialEffects(effects)
 				.mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}

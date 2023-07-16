@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:dirt_ore_ingot"
+    },
+    "title": {
+      "translate": "advancements.dirt_ingot_gathered.title"
+    },
+    "description": {
+      "translate": "advancements.dirt_ingot_gathered.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dirt_ingot_gathered": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totallynormal:dirt_ore_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15,
+    "recipes": [
+      "totallynormal:dirt_ore_pickaxe_recipe",
+      "totallynormal:dirt_ore_axe_recipe",
+      "totallynormal:dirt_ore_sword_recipe",
+      "totallynormal:dirt_ore_shovel_recipe",
+      "totallynormal:dirt_ore_hoe_recipe",
+      "totallynormal:dirt_ore_armor_helmet_recipe",
+      "totallynormal:dirt_ore_armor_body_recipe",
+      "totallynormal:dirt_ore_armor_leggings_recipe",
+      "totallynormal:dirt_ore_armor_boots_recipe"
+    ]
+  },
+  "parent": "totallynormal:going_to_dirt_dimension"
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:diamond_apple"
+    },
+    "title": {
+      "translate": "advancements.eat_diamond_apple.title"
+    },
+    "description": {
+      "translate": "advancements.eat_diamond_apple.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_diamond_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "totallynormal:diamond_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "totallynormal:netherite_apple_recipe"
+    ]
+  },
+  "parent": "totallynormal:eat_iron_apple_a"
+}

@@ -109,6 +109,25 @@
       "Dripstone",
       "Sculk"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:LivingDirtBlock"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:DirtCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 10,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

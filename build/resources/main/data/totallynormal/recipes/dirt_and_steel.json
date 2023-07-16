@@ -1,0 +1,16 @@
+{
+  "group": "dirt",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "totallynormal:dirt",
+    "count": 1
+  }
+}

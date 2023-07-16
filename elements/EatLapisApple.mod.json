@@ -1,0 +1,27 @@
+{
+  "_fv": 34,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Eat A Lapis Apple",
+    "achievementDescription": "Eat A Lapis Apple",
+    "achievementIcon": {
+      "value": "CUSTOM:LapisApple"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "WhenYouDontHaveEnoughGoldAndYouUseSomeLapisInsteadAppleRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:FirstApple"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"47\" y=\"21\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:LapisApple</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

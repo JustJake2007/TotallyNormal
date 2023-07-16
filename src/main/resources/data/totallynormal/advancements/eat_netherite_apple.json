@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:netherite_apple"
+    },
+    "title": {
+      "translate": "advancements.eat_netherite_apple.title"
+    },
+    "description": {
+      "translate": "advancements.eat_netherite_apple.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_netherite_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "totallynormal:netherite_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "loot": [
+      "totallynormal:entities/apple"
+    ]
+  },
+  "parent": "totallynormal:eat_diamond_apple"
+}

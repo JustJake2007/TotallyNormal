@@ -10,11 +10,13 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.totallynormal.client.renderer.LivingDirtBlockRenderer;
+import net.mcreator.totallynormal.client.renderer.DirtCowRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class TotallynormalModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(TotallynormalModEntities.LIVING_DIRT_BLOCK.get(), LivingDirtBlockRenderer::new);
+		event.registerEntityRenderer(TotallynormalModEntities.DIRT_COW.get(), DirtCowRenderer::new);
 	}
 }

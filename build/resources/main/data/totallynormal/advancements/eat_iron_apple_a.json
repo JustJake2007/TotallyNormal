@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:iron_apple"
+    },
+    "title": {
+      "translate": "advancements.eat_iron_apple_a.title"
+    },
+    "description": {
+      "translate": "advancements.eat_iron_apple_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_iron_apple_a": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "totallynormal:iron_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "totallynormal:diamond_apple_recipe"
+    ]
+  },
+  "parent": "totallynormal:first_apple"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dirt"
+    },
+    "1": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "totallynormal:dirt_apple",
+    "count": 1
+  }
+}

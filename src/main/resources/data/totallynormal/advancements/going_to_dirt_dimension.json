@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:dirt"
+    },
+    "title": {
+      "translate": "advancements.going_to_dirt_dimension.title"
+    },
+    "description": {
+      "translate": "advancements.going_to_dirt_dimension.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "going_to_dirt_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "totallynormal:dirt"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "loot": [
+      "totallynormal:entities/dirt_tablet"
+    ],
+    "recipes": [
+      "totallynormal:dirt_ore_ore_smelting",
+      "totallynormal:dirt_ore_ore_block_recipe",
+      "totallynormal:dirt_ore_block_ore_recipe"
+    ]
+  },
+  "parent": "totallynormal:start_of_dirt"
+}

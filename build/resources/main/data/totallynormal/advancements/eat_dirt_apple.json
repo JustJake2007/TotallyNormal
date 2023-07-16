@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:dirt_apple"
+    },
+    "title": {
+      "translate": "advancements.eat_dirt_apple.title"
+    },
+    "description": {
+      "translate": "advancements.eat_dirt_apple.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_dirt_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "totallynormal:dirt_apple"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "totallynormal:going_to_dirt_dimension"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:dirt_ore_armor_helmet"
+    },
+    "title": {
+      "translate": "advancements.wear_dirt_armor.title"
+    },
+    "description": {
+      "translate": "advancements.wear_dirt_armor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wear_dirt_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "totallynormal:dirt_ingot_gathered"
+}

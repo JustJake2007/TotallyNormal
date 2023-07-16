@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:apple_sword"
+    },
+    "title": {
+      "translate": "advancements.apple_sword_a.title"
+    },
+    "description": {
+      "translate": "advancements.apple_sword_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "apple_sword_a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totallynormal:apple_sword"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "totallynormal:entities/apple"
+    ]
+  },
+  "parent": "totallynormal:first_apple"
+}
