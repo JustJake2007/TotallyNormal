@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -8,7 +8,7 @@
     "name": "Netherite Apple",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:ApplesTab"
     },
     "stackSize": 64,
     "enchantability": 0,

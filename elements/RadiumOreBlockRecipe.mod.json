@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.DYE#4"
+        "value": ""
       },
       {
-        "value": "Items.DYE#4"
+        "value": ""
       },
       {
-        "value": "Items.DYE#4"
+        "value": ""
       },
       {
-        "value": "Items.DYE#4"
+        "value": ""
       },
       {
-        "value": "Items.APPLE"
+        "value": "CUSTOM:RadiumDust"
       },
       {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:RadiumDust"
       },
       {
-        "value": "Items.DYE#4"
+        "value": ""
       },
       {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:RadiumDust"
       },
       {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:RadiumDust"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LapisApple"
+      "value": "CUSTOM:RadiumBlock"
     },
-    "name": "lapis_apple_recipe",
+    "name": "radium_ore_block_recipe",
     "namespace": "mod"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "fluid",
   "definition": {
     "name": "Mud",
@@ -8,14 +8,14 @@
     "textureFlowing": "dirt2",
     "tintType": "No tint",
     "canMultiply": true,
-    "flowRate": 10,
+    "flowRate": 5,
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": true,
     "dripParticle": {
       "value": "EXPLOSION_NORMAL"
     },
-    "flowStrength": 5.0,
+    "flowStrength": 0.5,
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,
@@ -24,12 +24,12 @@
     "generateBucket": true,
     "textureBucket": "bucket_of_mud",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:DirtTab"
     },
     "emptySound": {
       "value": "block.packed_mud.place"
     },
-    "rarity": "RARE",
+    "rarity": "COMMON",
     "specialInfo": [],
     "resistance": 100.0,
     "luminance": 0,
@@ -38,11 +38,6 @@
     "tickRate": 10,
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "colorOnMap": "DEFAULT",
-    "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": []
+    "colorOnMap": "DEFAULT"
   }
 }

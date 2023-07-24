@@ -1,18 +1,18 @@
 {
-  "_fv": 43,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "half_lapis_apple",
+    "texture": "green_stick",
     "customModelName": "Normal",
-    "name": "When You Dont Have Enough Gold And You Use Some Lapis Instead Apple",
+    "name": "Radium Rod",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:ApplesTab"
+      "value": "CUSTOM:WastelandsTab"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -29,17 +29,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onFinishUsingItem": {
-      "name": "YouDontHaveEnoughGoldAndYouUseSomeLapisInsteadApplePlayerFinishesUsingItem"
-    },
-    "isFood": true,
-    "nutritionalValue": 0,
-    "saturation": 0.0,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "eat"
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }

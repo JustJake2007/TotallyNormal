@@ -1,48 +1,46 @@
 {
-  "_fv": 43,
+  "_fv": 34,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
-    "group": "",
-    "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "recipeRetstackSize": 1,
+    "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.APPLE"
-      },
-      {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:RadiumBlock"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:RadiumBlock"
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NetheriteApple"
+      "value": "CUSTOM:RadiumRod"
     },
-    "name": "netherite_apple_recipe",
+    "name": "radium_rod_r",
     "namespace": "mod"
   }
 }
