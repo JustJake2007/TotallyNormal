@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -35,9 +35,10 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
+    "enableIgniter": true,
     "igniterName": "Dirt And Steel",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:DirtTab"
     },
     "texture": "dirt_and_steel",
     "portalTexture": "dirt2",

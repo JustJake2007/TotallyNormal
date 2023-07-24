@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -8,7 +8,7 @@
     "name": "Dirt Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:DirtTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 1,

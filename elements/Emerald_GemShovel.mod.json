@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -8,7 +8,7 @@
     "name": "Emerald Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EmeraldToolTab"
     },
     "toolType": "Spade",
     "harvestLevel": 6,

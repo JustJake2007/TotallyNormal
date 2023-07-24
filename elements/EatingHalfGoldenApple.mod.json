@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "achievement",
   "definition": {
     "achievementName": "Cheapskate",
@@ -15,7 +15,9 @@
     "rewardLoot": [
       "Apple"
     ],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "AppleSwordRecipe"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "goal",

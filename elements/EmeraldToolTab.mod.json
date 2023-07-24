@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Emerald Tool",
+    "icon": {
+      "value": "CUSTOM:Emerald_GemSword"
+    },
+    "showSearch": false
+  }
+}
