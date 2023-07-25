@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "totallynormal:dirt_ore_ore"
+    "totallynormal:dirt_ore_ore",
+    "totallynormal:ash"
   ]
 }

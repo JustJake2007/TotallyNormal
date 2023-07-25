@@ -32,7 +32,7 @@
 	</classpathentry>
 	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
-	<classpathentry sourcepath="C:/Users/hite1/MCreatorWorkspaces/totallynormal/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-sources.jar" kind="lib" path="C:/Users/hite1/MCreatorWorkspaces/totallynormal/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2.jar">
+	<classpathentry sourcepath="C:/Users/hite1/MCreatorWorkspaces/totallynormal/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-sources.jar" kind="lib" path="C:/Users/hite1/MCreatorWorkspaces/totallynormal/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -618,6 +618,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/hite1/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/srgutils/0.4.11/56a06fb4edd6adf1b4b951732b3e6f7c789ea71/srgutils-0.4.11-sources.jar" kind="lib" path="C:/Users/hite1/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/srgutils/0.4.11/fbad1341ffdb47d276bbdc40ecb06da49e053e74/srgutils-0.4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hite1/MCreatorWorkspaces/totallynormal/lib/mcreator_link.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
