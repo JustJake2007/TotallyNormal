@@ -1965,6 +1965,7 @@
     {
       "name": "Banker",
       "type": "villagerprofession",
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "banker",
@@ -2048,6 +2049,651 @@
         ]
       },
       "path": "~/Wastelands"
+    },
+    {
+      "name": "AppleSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/AppleSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/RubyItem.java",
+          "src/main/resources/assets/totallynormal/models/item/ruby.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/ruby_ore.json",
+          "src/main/java/net/mcreator/totallynormal/block/RubyOreBlock.java",
+          "src/main/resources/data/totallynormal/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/totallynormal/models/block/ruby_ore.json",
+          "src/main/java/net/mcreator/totallynormal/world/features/ores/RubyOreFeature.java",
+          "src/main/resources/assets/totallynormal/blockstates/ruby_ore.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/ruby_block.json",
+          "src/main/resources/assets/totallynormal/blockstates/ruby_block.json",
+          "src/main/resources/assets/totallynormal/models/block/ruby_block.json",
+          "src/main/java/net/mcreator/totallynormal/block/RubyBlockBlock.java"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTab",
+      "type": "tab",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTPickaxe",
+      "type": "tool",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/ruby_t_pickaxe.json",
+          "src/main/java/net/mcreator/totallynormal/item/RubyTPickaxeItem.java"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTAxe",
+      "type": "tool",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/RubyTAxeItem.java",
+          "src/main/resources/assets/totallynormal/models/item/ruby_t_axe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTSword",
+      "type": "tool",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/ruby_t_sword.json",
+          "src/main/java/net/mcreator/totallynormal/item/RubyTSwordItem.java"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTShovel",
+      "type": "tool",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/RubyTShovelItem.java",
+          "src/main/resources/assets/totallynormal/models/item/ruby_t_shovel.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTHoe",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/RubyTHoeItem.java",
+          "src/main/resources/assets/totallynormal/models/item/ruby_t_hoe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_t_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTAxeRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_t_axe_recipe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTSwordRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_t_sword_recipe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTShovelRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_t_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyTHoeRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_t_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_t_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyBattleAxeEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/RubyBattleAxeEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyBattleAxe",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/RubyBattleAxeItem.java",
+          "src/main/resources/assets/totallynormal/models/item/ruby_battle_axe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "EmeraldAmongUs",
+      "type": "painting",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_among_us",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Emerald"
+    },
+    {
+      "name": "EmeraldStaffRightclicked",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_staff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/EmeraldStaffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Emerald"
+    },
+    {
+      "name": "EmeraldStaff",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/emerald_staff.json",
+          "src/main/java/net/mcreator/totallynormal/item/EmeraldStaffItem.java"
+        ]
+      },
+      "path": "~/Emerald"
+    },
+    {
+      "name": "EmeraldStaffLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_staff_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/EmeraldStaffLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Emerald"
+    },
+    {
+      "name": "BlankScroll",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_scroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/blank_scroll.json",
+          "src/main/java/net/mcreator/totallynormal/item/BlankScrollItem.java"
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "RecipeScrolls",
+      "type": "tab",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_scrolls",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "Magician",
+      "type": "villagerprofession",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magician",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/textures/entity/villager/profession/magician.png.mcmeta"
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "BlankScrollTrade",
+      "type": "villagertrade",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_scroll_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "AppleSwordScrollPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_sword_scroll_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/AppleSwordScrollPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/New Apples"
+    },
+    {
+      "name": "AppleSwordScroll",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_sword_scroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/apple_sword_scroll.json",
+          "src/main/java/net/mcreator/totallynormal/item/AppleSwordScrollItem.java"
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "AppleSwordTrade",
+      "type": "villagertrade",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_sword_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Villagers"
+    },
+    {
+      "name": "RubyBattleAxeR",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/ruby_battle_axe_r.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyBattleAxeScroll",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe_scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/RubyBattleAxeScrollItem.java",
+          "src/main/resources/assets/totallynormal/models/item/ruby_battle_axe_scroll.json"
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "RubyBattleAxeScrollPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe_scroll_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/RubyBattleAxeScrollPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "PocketWatchPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_watch_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/PocketWatchPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PocketWatch",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_watch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/pocket_watch.json",
+          "src/main/java/net/mcreator/totallynormal/item/PocketWatchItem.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PocketWatchR",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_watch_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/pocket_watch_r.json"
+        ]
+      },
+      "path": "~/Misc/Villagers"
+    },
+    {
+      "name": "PocketWatchScroll",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_watch_scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/PocketWatchScrollItem.java",
+          "src/main/resources/assets/totallynormal/models/item/pocket_watch_scroll.json"
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "PocketWatchScrollPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_watch_scroll_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/PocketWatchScrollPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "PocketWatchRightclicked",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocket_watch_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/PocketWatchRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc"
     }
   ],
   "variable_elements": [],
@@ -2075,51 +2721,60 @@
       "item.totallynormal.when_you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple": "When You Dont Have Enough Gold And You Use Some Lapis Instead Apple",
       "itemGroup.tabwastelands_tab": "Wastelands",
       "item.totallynormal.radium_dust": "Radium",
-      "advancements.eating_half_golden_apple.title": "Cheapskate",
+      "item.totallynormal.ruby_t_axe": "Ruby Axe",
+      "item.totallynormal.emerald_staff": "Emerald Staff",
       "block.totallynormal.radium_block": "Block of Radium",
+      "advancements.eating_half_golden_apple.title": "Cheapskate",
       "advancements.apple_sword_a.descr": "I mean it looks nice",
       "subtitles.technochased": "",
       "advancements.dirt_ingot_gathered.descr": "You\u0027ve Smelted Your First Dirt Ingot! I wonder what can be done with this!",
       "item.totallynormal.dirt_ore_armor_chestplate": "Dirt Chestplate",
       "entity.totallynormal.him": "Him",
       "item.totallynormal.dirt_ore_armor_boots": "Dirt Boots",
+      "block.totallynormal.ruby_ore": "Ruby Ore",
       "advancements.eat_dirt_apple.descr": "Why would you do that!?",
       "advancements.eat_diamond_apple.descr": "Eat A Diamond Apple :O",
       "advancements.starting.descr": "Starting another weird adventure again...",
       "item.totallynormal.dirt": "Dirt And Steel",
       "advancements.enter_wastelands_2.title": "What happened here?",
       "item.totallynormal.emerald_carrot": "Emerald Carrot",
+      "block.totallynormal.ruby_block": "Block of Ruby",
       "advancements.first_apple.descr": "Collect your first apple!",
       "item.totallynormal.netherite_apple": "Netherite Apple",
       "item.totallynormal.lapis_apple": "Lapis Apple",
       "advancements.eat_lapis_apple.descr": "Eat A Lapis Apple",
-      "advancements.get_old_rock_2.title": "Get Old Rock",
-      "item.totallynormal.emerald_gem_armor_helmet": "Emerald Helmet",
       "item.totallynormal.emerald_ingot": "Emerald Ingot",
+      "item.totallynormal.emerald_gem_armor_helmet": "Emerald Helmet",
+      "advancements.get_old_rock_2.title": "Get Old Rock",
       "item.totallynormal.emerald_gem_armor_boots": "Emerald Boots",
       "advancements.eat_netherite_apple.descr": "Eat A Netherite Apple, that\u0027s expensive!",
       "advancements.enter_wasteland_2.title": "What is this place?",
+      "item.totallynormal.pocket_watch_scroll": "Pocket Watch Scroll",
       "biome.totallynormal.wastelands": "Wastelands",
+      "item.totallynormal.ruby_t_hoe": "Ruby Hoe",
       "item.totallynormal.iron_apple": "Iron Apple",
       "advancements.eat_iron_apple_a.title": "Eat An Iron Apple",
       "advancements.get_radium_2.title": "Collected Radium",
       "advancements.going_to_dirt_dimension.title": "You\u0027ve Arrived",
-      "block.totallynormal.dirt_ore_ore": "Dirt Ore",
-      "advancements.get_a_emerald.descr": "Why is it green?",
       "item.minecraft.splash_potion.effect.radioactive_juice": "Splash Bottle of Radioactive Juice",
+      "advancements.get_a_emerald.descr": "Why is it green?",
+      "block.totallynormal.dirt_ore_ore": "Dirt Ore",
       "block.totallynormal.dirt_apple_block": "Dirt Apple Block",
       "advancements.wear_dirt_armor.title": "Suiting... Up?",
       "item.totallynormal.dirt_apple": "Dirt Apple",
       "item.totallynormal.emerald_pig_spawn_egg": "Emerald Pig Spawn Egg",
-      "item.totallynormal.dirt_ore_ingot": "Dirt Ingot",
       "item.minecraft.lingering_potion.effect.radioactive_juice": "Lingering Bottle of Radioactive Juice",
+      "item.totallynormal.dirt_ore_ingot": "Dirt Ingot",
+      "item.totallynormal.pocket_watch": "Pocket Watch",
       "item.totallynormal.emerald_fragment": "Emerald Fragment",
-      "item.totallynormal.dirt_ore_axe": "Dirt Axe",
+      "entity.minecraft.villager.totallynormal.magician": "Magician",
       "advancements.get_a_emerald.title": "These Aren\u0027t Diamonds!",
+      "item.totallynormal.dirt_ore_axe": "Dirt Axe",
       "item.totallynormal.dirt_cow_spawn_egg": "Dirt Cow Spawn Egg",
       "item.totallynormal.old_rock": "Old Rock",
       "item.totallynormal.emerald_gem_hoe": "Emerald Hoe",
       "advancements.starting.title": "Aw s**t, here we go again",
+      "item.totallynormal.ruby_battle_axe_scroll": "Ruby Battle Axe Scroll",
       "item.totallynormal.technoblade_spawn_egg": "Technoblade Spawn Egg",
       "advancements.eat_iron_apple_a.descr": "Eat your first Iron Apple",
       "advancements.going_to_dirt_dimension.descr": "You\u0027ve arrived in the... dirt dimension?",
@@ -2132,17 +2787,22 @@
       "item.totallynormal.dirt_ore_armor_helmet": "Dirt Helmet",
       "advancements.eating_half_golden_apple.descr": "You had to cheap out on materials",
       "item.totallynormal.apple_sword": "Apple Sword",
+      "item.totallynormal.ruby_t_shovel": "Ruby Shovel",
       "block.totallynormal.dirt_ore_block": "Block of Dirt",
       "block.totallynormal.ash": "Ash",
       "item.totallynormal.him_spawn_egg": "Him Spawn Egg",
       "advancements.get_old_rock_2.descr": "What is this thing?",
       "entity.totallynormal.emerald_pig": "Emerald Pig",
       "subtitles.fitness_gram_pacer_test": "",
+      "item.totallynormal.apple_sword_scroll": "Apple Sword Scroll",
       "item.totallynormal.mud_bucket": "Mud Bucket",
+      "item.totallynormal.ruby": "Ruby",
+      "item.totallynormal.ruby_battle_axe": "Ruby Battle Axe",
       "advancements.dirt_ingot_gathered.title": "Dirt...Ore?",
       "advancements.apple_sword_a.title": "You crafted an... apple sword?",
       "item.totallynormal.dirt_ore_hoe": "Dirt Hoe",
       "itemGroup.tabemerald_tool_tab": "Emerald Tool",
+      "itemGroup.tabrecipe_scrolls": "Recipe Scrolls",
       "block.totallynormal.radium_ore": "Radium Ore",
       "item.totallynormal.diamond_apple": "Diamond Apple",
       "biome.totallynormal.dirts": "Dirts",
@@ -2150,8 +2810,10 @@
       "item.totallynormal.dirt_ore_armor_leggings": "Dirt Leggings",
       "item.totallynormal.emerald_gem_axe": "Emerald Axe",
       "entity.minecraft.villager.totallynormal.banker": "Banker",
+      "item.totallynormal.ruby_t_sword": "Ruby Sword",
       "item.totallynormal.emerald_gem_sword": "Emerald Sword",
       "entity.totallynormal.technoblade": "Technoblade",
+      "item.totallynormal.blank_scroll": "Blank Scroll",
       "advancements.wear_dirt_armor.descr": "Getting Dirty With Dirt Armor",
       "advancements.start_of_dirt.descr": "You\u0027ve collected your first dirt block",
       "item.totallynormal.dirt_ore_shovel": "Dirt Shovel",
@@ -2167,8 +2829,10 @@
       "item.totallynormal.dirt_ore_sword": "Dirt Sword",
       "advancements.eat_diamond_apple.title": "Eat A Diamond Apple",
       "item.totallynormal.emerald_gem_pickaxe": "Emerald Pickaxe",
+      "item.totallynormal.ruby_t_pickaxe": "Ruby Pickaxe",
       "itemGroup.tabtotally_normal_tab": "Totally Normal",
       "itemGroup.tabdirt_tab": "Dirt",
+      "itemGroup.tabruby_tab": "Ruby",
       "advancements.eat_lapis_apple.title": "Eat A Lapis Apple",
       "itemGroup.tabeconomy": "Economy",
       "fluid.totallynormal.mud": "Mud",
@@ -2207,6 +2871,18 @@
       },
       {
         "name": "Wastelands",
+        "children": []
+      },
+      {
+        "name": "Ruby",
+        "children": []
+      },
+      {
+        "name": "Recipe Scrolls",
+        "children": []
+      },
+      {
+        "name": "Chaos",
         "children": []
       }
     ]
