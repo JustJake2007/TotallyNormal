@@ -29,6 +29,12 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.totallynormal.init.TotallynormalModVillagerProfessions;
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
+import net.mcreator.totallynormal.init.TotallynormalModSounds;
+import net.mcreator.totallynormal.init.TotallynormalModPotions;
+import net.mcreator.totallynormal.init.TotallynormalModParticleTypes;
+import net.mcreator.totallynormal.init.TotallynormalModPaintings;
 import net.mcreator.totallynormal.init.TotallynormalModItems;
 import net.mcreator.totallynormal.init.TotallynormalModFluids;
 import net.mcreator.totallynormal.init.TotallynormalModFluidTypes;
@@ -40,7 +46,9 @@ import net.mcreator.totallynormal.init.TotallynormalModBiomes;
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.List;
+import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
@@ -51,32 +59,36 @@ public class TotallynormalMod {
 
 	public TotallynormalMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		TotallynormalModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		TotallynormalModSounds.REGISTRY.register(bus);
 		TotallynormalModBlocks.REGISTRY.register(bus);
 		TotallynormalModItems.REGISTRY.register(bus);
 		TotallynormalModEntities.REGISTRY.register(bus);
 
 		TotallynormalModFeatures.REGISTRY.register(bus);
-		TotallynormalModFluids.REGISTRY.register(bus);
-		TotallynormalModFluidTypes.REGISTRY.register(bus);
+		TotallynormalModPaintings.REGISTRY.register(bus);
+
+		TotallynormalModPotions.REGISTRY.register(bus);
+
+		TotallynormalModParticleTypes.REGISTRY.register(bus);
 
 		TotallynormalModBiomes.REGISTRY.register(bus);
+		TotallynormalModVillagerProfessions.PROFESSIONS.register(bus);
+		TotallynormalModFluids.REGISTRY.register(bus);
+		TotallynormalModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
-			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
+	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
-			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
+	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
 		PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
 
-	private static final List<AbstractMap.SimpleEntry<Runnable, Integer>> workQueue = new ArrayList<>();
+	private static final Collection<AbstractMap.SimpleEntry<Runnable, Integer>> workQueue = new ConcurrentLinkedQueue<>();
 
 	public static void queueServerWork(int tick, Runnable action) {
 		workQueue.add(new AbstractMap.SimpleEntry(action, tick));

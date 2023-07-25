@@ -16,7 +16,10 @@ import net.mcreator.totallynormal.client.renderer.DirtCowRenderer;
 public class TotallynormalModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(TotallynormalModEntities.LIVING_DIRT_BLOCK.get(), LivingDirtBlockRenderer::new);
 		event.registerEntityRenderer(TotallynormalModEntities.DIRT_COW.get(), DirtCowRenderer::new);
+		event.registerEntityRenderer(TotallynormalModEntities.LIVING_DIRT_BLOCK.get(), LivingDirtBlockRenderer::new);
+		event.registerEntityRenderer(TotallynormalModEntities.HIM.get(), HimRenderer::new);
+		event.registerEntityRenderer(TotallynormalModEntities.EMERALD_PIG.get(), EmeraldPigRenderer::new);
+		event.registerEntityRenderer(TotallynormalModEntities.TECHNOBLADE.get(), TechnobladeRenderer::new);
 	}
 }

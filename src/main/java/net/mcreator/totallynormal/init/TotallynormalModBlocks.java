@@ -14,6 +14,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.totallynormal.block.RubyOreBlock;
+import net.mcreator.totallynormal.block.RubyBlockBlock;
 import net.mcreator.totallynormal.block.MudBlock;
 import net.mcreator.totallynormal.block.Dirt_OreOreBlock;
 import net.mcreator.totallynormal.block.Dirt_OreBlockBlock;
@@ -28,6 +30,12 @@ public class TotallynormalModBlocks {
 	public static final RegistryObject<Block> MUD = REGISTRY.register("mud", () -> new MudBlock());
 	public static final RegistryObject<Block> DIRT_ORE_ORE = REGISTRY.register("dirt_ore_ore", () -> new Dirt_OreOreBlock());
 	public static final RegistryObject<Block> DIRT_ORE_BLOCK = REGISTRY.register("dirt_ore_block", () -> new Dirt_OreBlockBlock());
+	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
+	public static final RegistryObject<Block> WASTELAND_PORTAL = REGISTRY.register("wasteland_portal", () -> new WastelandPortalBlock());
+	public static final RegistryObject<Block> RADIUM_ORE = REGISTRY.register("radium_ore", () -> new RadiumOreBlock());
+	public static final RegistryObject<Block> RADIUM_BLOCK = REGISTRY.register("radium_block", () -> new RadiumBlockBlock());
+	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
+	public static final RegistryObject<Block> RUBY_BLOCK = REGISTRY.register("ruby_block", () -> new RubyBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
