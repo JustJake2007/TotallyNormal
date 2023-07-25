@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": "CUSTOM:EmeraldFragment"
+            },
+            "countPrice2": 27,
+            "offer": {
+              "value": "CUSTOM:EmeraldCarrot"
+            },
+            "countOffer": 2,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 7,
+            "priceMultiplier": 0.08
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "These Aren't Diamonds!",
+    "achievementDescription": "Why is it green?",
+    "achievementIcon": {
+      "value": "Items.EMERALD"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "Emerald_GemPickaxeRecipe",
+      "Emerald_GemAxeRecipe",
+      "Emerald_GemSwordRecipe",
+      "Emerald_GemShovelRecipe",
+      "Emerald_GemHoeRecipe",
+      "Emerald_GemArmorHelmetRecipe",
+      "Emerald_GemArmorBodyRecipe",
+      "Emerald_GemArmorLeggingsRecipe",
+      "Emerald_GemArmorBootsRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 15,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:Starting"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"53\" y=\"16\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.EMERALD</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

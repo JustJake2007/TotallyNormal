@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Apples",
+    "icon": {
+      "value": "Items.GOLDEN_APPLE#0"
+    },
+    "showSearch": false
+  }
+}
