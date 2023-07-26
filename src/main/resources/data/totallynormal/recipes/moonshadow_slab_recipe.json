@@ -1,0 +1,22 @@
+{
+  "group": "wooden_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:moonshadow_planks"
+    },
+    "1": {
+      "item": "totallynormal:moonshadow_planks"
+    },
+    "2": {
+      "item": "totallynormal:moonshadow_planks"
+    }
+  },
+  "result": {
+    "item": "totallynormal:moonshadow_slab",
+    "count": 6
+  }
+}

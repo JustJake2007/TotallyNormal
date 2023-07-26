@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "1": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "2": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "3": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "4": {
+      "item": "totallynormal:old_rock"
+    },
+    "5": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "6": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "7": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "8": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "result": {
+    "item": "totallynormal:wasteland",
+    "count": 1
+  }
+}

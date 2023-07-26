@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:ruby"
+    },
+    "1": {
+      "item": "totallynormal:ruby_block"
+    },
+    "2": {
+      "item": "totallynormal:ruby"
+    },
+    "3": {
+      "item": "totallynormal:ruby"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "totallynormal:ruby"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "totallynormal:ruby_battle_axe",
+    "count": 1
+  }
+}

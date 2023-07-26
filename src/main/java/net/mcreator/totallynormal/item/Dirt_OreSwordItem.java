@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 import net.mcreator.totallynormal.init.TotallynormalModItems;
 
 public class Dirt_OreSwordItem extends SwordItem {
@@ -36,6 +36,6 @@ public class Dirt_OreSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TotallynormalModItems.DIRT_ORE_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(TotallynormalModTabs.TAB_DIRT_TAB));
 	}
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:radium_dust"
+    },
+    "1": {
+      "item": "totallynormal:radium_dust"
+    },
+    "2": {
+      "item": "totallynormal:radium_dust"
+    },
+    "3": {
+      "item": "totallynormal:radium_dust"
+    }
+  },
+  "result": {
+    "item": "totallynormal:radium_block",
+    "count": 1
+  }
+}

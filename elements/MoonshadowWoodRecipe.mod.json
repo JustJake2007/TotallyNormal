@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MoonshadowLog"
+      },
+      {
+        "value": "CUSTOM:MoonshadowLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoonshadowLog"
+      },
+      {
+        "value": "CUSTOM:MoonshadowLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MoonshadowWood"
+    },
+    "name": "moonshadow_wood_recipe",
+    "namespace": "mod"
+  }
+}

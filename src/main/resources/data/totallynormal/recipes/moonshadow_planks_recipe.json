@@ -1,0 +1,13 @@
+{
+  "group": "planks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:moonshadow_log"
+    }
+  ],
+  "result": {
+    "item": "totallynormal:moonshadow_planks",
+    "count": 4
+  }
+}

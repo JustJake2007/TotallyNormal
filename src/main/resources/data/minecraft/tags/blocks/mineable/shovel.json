@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "totallynormal:dirt_ore_ore",
-    "totallynormal:ash"
+    "totallynormal:ash",
+    "totallynormal:weird_grass"
   ]
 }

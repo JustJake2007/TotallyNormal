@@ -6,19 +6,18 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.mcreator.totallynormal.procedures.EatIronAppleProcedure;
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 
 public class IronAppleItem extends Item {
 	public IronAppleItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).alwaysEat()
+		super(new Item.Properties().tab(TotallynormalModTabs.TAB_APPLES_TAB).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).alwaysEat()
 
-						.build()));
+				.build()));
 	}
 
 	@Override

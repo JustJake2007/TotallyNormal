@@ -33,9 +33,7 @@ public class WearingDirtArmorProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerHasItem
-				? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_HELMET.get()))
-				: false) {
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_HELMET.get())) : false) {
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("totallynormal:wear_dirt_armor"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -46,9 +44,7 @@ public class WearingDirtArmorProcedure {
 				}
 			}
 		} else {
-			if (entity instanceof Player _playerHasItem
-					? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_CHESTPLATE.get()))
-					: false) {
+			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_CHESTPLATE.get())) : false) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("totallynormal:wear_dirt_armor"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -59,9 +55,7 @@ public class WearingDirtArmorProcedure {
 					}
 				}
 			} else {
-				if (entity instanceof Player _playerHasItem
-						? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_LEGGINGS.get()))
-						: false) {
+				if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_LEGGINGS.get())) : false) {
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("totallynormal:wear_dirt_armor"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -72,9 +66,7 @@ public class WearingDirtArmorProcedure {
 						}
 					}
 				} else {
-					if (entity instanceof Player _playerHasItem
-							? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_BOOTS.get()))
-							: false) {
+					if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(TotallynormalModItems.DIRT_ORE_ARMOR_BOOTS.get())) : false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("totallynormal:wear_dirt_armor"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

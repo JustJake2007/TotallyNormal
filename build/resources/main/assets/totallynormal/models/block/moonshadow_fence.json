@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "totallynormal:blocks/moonshadow_planks",
+    "particle": "totallynormal:blocks/moonshadow_planks"
+  },
+  "render_type": "solid"
+}

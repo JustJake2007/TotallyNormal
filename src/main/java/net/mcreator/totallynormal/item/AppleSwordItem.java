@@ -10,7 +10,8 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 
 public class AppleSwordItem extends SwordItem {
 	public AppleSwordItem() {
@@ -38,7 +39,7 @@ public class AppleSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.APPLE));
 			}
-		}, 3, -3.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3.5f, new Item.Properties().tab(TotallynormalModTabs.TAB_APPLES_TAB));
 	}
 
 	@Override

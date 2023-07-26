@@ -42,6 +42,7 @@ public class LivingDirtBlockEntity extends Zombie {
 
 	public LivingDirtBlockEntity(EntityType<LivingDirtBlockEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 9;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Blocks.DIRT));
@@ -59,7 +60,7 @@ public class LivingDirtBlockEntity extends Zombie {
 		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
-				return (double) (4.0 + entity.getBbWidth() * entity.getBbWidth());
+				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
@@ -71,6 +72,11 @@ public class LivingDirtBlockEntity extends Zombie {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public double getMyRidingOffset() {
+		return -0.35D;
 	}
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
@@ -112,9 +118,8 @@ public class LivingDirtBlockEntity extends Zombie {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(TotallynormalModEntities.LIVING_DIRT_BLOCK.get(), SpawnPlacements.Type.ON_GROUND,
-				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
-						&& Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
+		SpawnPlacements.register(TotallynormalModEntities.LIVING_DIRT_BLOCK.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

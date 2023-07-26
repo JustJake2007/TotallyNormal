@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:ruby"
+    },
+    "1": {
+      "item": "totallynormal:charged_coal"
+    },
+    "2": {
+      "item": "totallynormal:ruby"
+    },
+    "3": {
+      "item": "totallynormal:charged_coal"
+    },
+    "4": {
+      "item": "totallynormal:charged_emerald"
+    },
+    "5": {
+      "item": "totallynormal:charged_coal"
+    },
+    "6": {
+      "item": "totallynormal:ruby"
+    },
+    "7": {
+      "item": "totallynormal:charged_coal"
+    },
+    "8": {
+      "item": "totallynormal:ruby"
+    }
+  },
+  "result": {
+    "item": "totallynormal:chaos_heart",
+    "count": 1
+  }
+}

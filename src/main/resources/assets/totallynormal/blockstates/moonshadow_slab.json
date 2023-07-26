@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "totallynormal:block/moonshadow_slab"
+    },
+    "type=top": {
+      "model": "totallynormal:block/moonshadow_slab_top"
+    },
+    "type=double": {
+      "model": "totallynormal:block/moonshadow_slab_full"
+    }
+  }
+}

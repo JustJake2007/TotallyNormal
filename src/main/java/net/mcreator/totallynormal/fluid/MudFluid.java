@@ -16,9 +16,8 @@ import net.mcreator.totallynormal.init.TotallynormalModFluidTypes;
 import net.mcreator.totallynormal.init.TotallynormalModBlocks;
 
 public abstract class MudFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> TotallynormalModFluidTypes.MUD_TYPE.get(),
-			() -> TotallynormalModFluids.MUD.get(), () -> TotallynormalModFluids.FLOWING_MUD.get()).explosionResistance(100f).tickRate(10)
-			.bucket(() -> TotallynormalModItems.MUD_BUCKET.get()).block(() -> (LiquidBlock) TotallynormalModBlocks.MUD.get());
+	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> TotallynormalModFluidTypes.MUD_TYPE.get(), () -> TotallynormalModFluids.MUD.get(), () -> TotallynormalModFluids.FLOWING_MUD.get())
+			.explosionResistance(100f).bucket(() -> TotallynormalModItems.MUD_BUCKET.get()).block(() -> (LiquidBlock) TotallynormalModBlocks.MUD.get());
 
 	private MudFluid() {
 		super(PROPERTIES);

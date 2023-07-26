@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:coal"
+  },
+  "addition": {
+    "item": "totallynormal:chaos"
+  },
+  "result": {
+    "item": "totallynormal:charged_coal"
+  }
+}

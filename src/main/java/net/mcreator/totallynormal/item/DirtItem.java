@@ -5,16 +5,16 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 import net.mcreator.totallynormal.block.DirtPortalBlock;
 
 public class DirtItem extends Item {
 	public DirtItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(64));
+		super(new Item.Properties().tab(TotallynormalModTabs.TAB_DIRT_TAB).durability(64));
 	}
 
 	@Override

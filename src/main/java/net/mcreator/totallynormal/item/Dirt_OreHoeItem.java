@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 import net.mcreator.totallynormal.init.TotallynormalModItems;
 
 public class Dirt_OreHoeItem extends HoeItem {
@@ -36,6 +36,6 @@ public class Dirt_OreHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TotallynormalModItems.DIRT_ORE_INGOT.get()));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -3f, new Item.Properties().tab(TotallynormalModTabs.TAB_DIRT_TAB));
 	}
 }

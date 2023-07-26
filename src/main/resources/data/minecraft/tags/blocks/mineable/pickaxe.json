@@ -5,6 +5,8 @@
     "totallynormal:radium_ore",
     "totallynormal:radium_block",
     "totallynormal:ruby_ore",
-    "totallynormal:ruby_block"
+    "totallynormal:ruby_block",
+    "totallynormal:chaos_ore",
+    "totallynormal:chaos_block"
   ]
 }

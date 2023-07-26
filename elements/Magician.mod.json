@@ -1,0 +1,16 @@
+{
+  "_fv": 43,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Magician",
+    "pointOfInterest": {
+      "value": "Blocks.ENCHANTING_TABLE"
+    },
+    "actionSound": {
+      "value": "block.enchantment_table.use"
+    },
+    "hat": "None",
+    "professionTextureFile": "witch-planetminecraft-com-13110637.png",
+    "zombifiedProfessionTextureFile": "dirt_skin.png"
+  }
+}

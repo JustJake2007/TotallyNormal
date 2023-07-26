@@ -1,0 +1,33 @@
+{
+  "group": "wooden_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:moonshadow_planks"
+    },
+    "3": {
+      "item": "totallynormal:moonshadow_planks"
+    },
+    "4": {
+      "item": "totallynormal:moonshadow_planks"
+    },
+    "6": {
+      "item": "totallynormal:moonshadow_planks"
+    },
+    "7": {
+      "item": "totallynormal:moonshadow_planks"
+    },
+    "8": {
+      "item": "totallynormal:moonshadow_planks"
+    }
+  },
+  "result": {
+    "item": "totallynormal:moonshadow_stairs",
+    "count": 4
+  }
+}

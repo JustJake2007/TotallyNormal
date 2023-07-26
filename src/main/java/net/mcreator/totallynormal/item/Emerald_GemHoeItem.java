@@ -7,7 +7,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 
 public class Emerald_GemHoeItem extends HoeItem {
 	public Emerald_GemHoeItem() {
@@ -35,6 +36,6 @@ public class Emerald_GemHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -3f, new Item.Properties().tab(TotallynormalModTabs.TAB_EMERALD_TOOL_TAB));
 	}
 }

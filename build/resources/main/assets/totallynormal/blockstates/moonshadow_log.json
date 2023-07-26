@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "totallynormal:block/moonshadow_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "totallynormal:block/moonshadow_log"
+    },
+    "axis=z": {
+      "model": "totallynormal:block/moonshadow_log",
+      "x": 90
+    }
+  }
+}

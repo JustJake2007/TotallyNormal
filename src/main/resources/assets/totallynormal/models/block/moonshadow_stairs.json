@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "totallynormal:blocks/moonshadow_planks",
+    "top": "totallynormal:blocks/moonshadow_planks",
+    "side": "totallynormal:blocks/moonshadow_planks"
+  },
+  "render_type": "solid"
+}

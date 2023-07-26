@@ -39,6 +39,7 @@ public class DirtCowEntity extends PathfinderMob {
 
 	public DirtCowEntity(EntityType<DirtCowEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 	}
@@ -101,8 +102,7 @@ public class DirtCowEntity extends PathfinderMob {
 
 	public static void init() {
 		SpawnPlacements.register(TotallynormalModEntities.DIRT_COW.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos,
-						random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

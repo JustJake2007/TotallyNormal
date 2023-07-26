@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:ruby"
+    },
+    "1": {
+      "item": "totallynormal:ruby"
+    },
+    "2": {
+      "item": "totallynormal:ruby"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "totallynormal:ruby_t_pickaxe",
+    "count": 1
+  }
+}

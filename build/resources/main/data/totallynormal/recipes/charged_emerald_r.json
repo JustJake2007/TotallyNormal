@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:emerald"
+  },
+  "addition": {
+    "item": "totallynormal:chaos"
+  },
+  "result": {
+    "item": "totallynormal:charged_emerald"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "totallynormal:block/wasteland_portal_ew"
+    },
+    "axis=x": {
+      "model": "totallynormal:block/wasteland_portal_ns"
+    }
+  }
+}

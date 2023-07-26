@@ -1,0 +1,28 @@
+{
+  "totallynormal:starting": {
+    "criteria": {
+      "starting": "2023-07-16 18:46:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-07-16 18:39:28 -0400",
+      "minecraft:forest": "2023-07-16 18:45:56 -0400"
+    },
+    "done": false
+  },
+  "totallynormal:start_of_dirt": {
+    "criteria": {
+      "start_of_dirt": "2023-07-16 18:46:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-07-16 18:46:03 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

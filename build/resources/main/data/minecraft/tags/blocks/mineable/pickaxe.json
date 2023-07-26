@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "totallynormal:dirt_ore_block"
+    "totallynormal:dirt_ore_block",
+    "totallynormal:radium_ore",
+    "totallynormal:radium_block",
+    "totallynormal:ruby_ore",
+    "totallynormal:ruby_block",
+    "totallynormal:chaos_ore",
+    "totallynormal:chaos_block"
   ]
 }

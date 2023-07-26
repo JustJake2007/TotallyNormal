@@ -1,0 +1,26 @@
+{
+  "group": "bark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:moonshadow_log"
+    },
+    "1": {
+      "item": "totallynormal:moonshadow_log"
+    },
+    "2": {
+      "item": "totallynormal:moonshadow_log"
+    },
+    "3": {
+      "item": "totallynormal:moonshadow_log"
+    }
+  },
+  "result": {
+    "item": "totallynormal:moonshadow_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "totallynormal:radium_block"
+    },
+    "2": {
+      "item": "totallynormal:radium_block"
+    }
+  },
+  "result": {
+    "item": "totallynormal:radium_rod",
+    "count": 1
+  }
+}

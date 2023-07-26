@@ -39,5 +39,5 @@
       "totallynormal:lapis_apple_recipe"
     ]
   },
-  "parent": "totallynormal:starting"
+  "parent": "minecraft:story/root"
 }

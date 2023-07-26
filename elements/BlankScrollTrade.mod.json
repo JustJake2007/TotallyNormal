@@ -1,0 +1,105 @@
+{
+  "_fv": 43,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Magician"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Coin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.DYE#4"
+            },
+            "countPrice2": 10,
+            "offer": {
+              "value": "CUSTOM:BlankScroll"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 12,
+            "priceMultiplier": 0.06999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BlankScroll"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.APPLE"
+            },
+            "countPrice2": 10,
+            "offer": {
+              "value": "CUSTOM:AppleSwordScroll"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 9,
+            "priceMultiplier": 0.04
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BlankScroll"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.GOLD_INGOT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:PocketWatchScroll"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 11,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BlankScroll"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice2": 10,
+            "offer": {
+              "value": "CUSTOM:EmeraldStaffScroll"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BlankScroll"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Chaos"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ChaosHeartScroll"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

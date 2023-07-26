@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "totallynormal:block/limbo_portal_ew"
+    },
+    "axis=x": {
+      "model": "totallynormal:block/limbo_portal_ns"
+    }
+  }
+}

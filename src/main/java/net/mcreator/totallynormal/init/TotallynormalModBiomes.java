@@ -31,7 +31,9 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.totallynormal.world.biome.WastelandsBiome;
 import net.mcreator.totallynormal.world.biome.DirtsBiome;
+import net.mcreator.totallynormal.world.biome.ConfusionBiomeBiome;
 import net.mcreator.totallynormal.TotallynormalMod;
 
 import java.util.Map;
@@ -47,6 +49,7 @@ public class TotallynormalModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, TotallynormalMod.MODID);
 	public static final RegistryObject<Biome> DIRTS = REGISTRY.register("dirts", DirtsBiome::createBiome);
 	public static final RegistryObject<Biome> WASTELANDS = REGISTRY.register("wastelands", WastelandsBiome::createBiome);
+	public static final RegistryObject<Biome> CONFUSION_BIOME = REGISTRY.register("confusion_biome", ConfusionBiomeBiome::createBiome);
 
 	@SubscribeEvent
 	public static void onServerAboutToStart(ServerAboutToStartEvent event) {

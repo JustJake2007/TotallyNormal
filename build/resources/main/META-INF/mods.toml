@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="totallynormal"
-version="1.0.1"
-displayName="Totallynormal"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+version="1.1.2"
+displayName="Totally Normal"
+credits="This is by enderboii on discord, please enjoy!"
+displayURL="https://github.com/JustJake2007/TotallyNormal"
+updateJSONURL="https://github.com/JustJake2007/TotallyNormalhttps://github.com/JustJake2007/TotallyNormal"
 authors="hite1, MCreator"
+description="This is completely normal with nothing wrong about it : Make sure to have fun and enjoy your stay!)"
 
 [[dependencies.totallynormal]]
     modId="minecraft"

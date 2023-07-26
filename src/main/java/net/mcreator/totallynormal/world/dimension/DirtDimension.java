@@ -21,7 +21,7 @@ public class DirtDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.211764705882, 0.141176470588, 0.050980392157);
+					return new Vec3(0.2117647059, 0.1411764706, 0.0509803922);
 				}
 
 				@Override

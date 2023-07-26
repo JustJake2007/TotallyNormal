@@ -30,6 +30,9 @@
     "experience": 0,
     "loot": [
       "totallynormal:entities/apple"
+    ],
+    "recipes": [
+      "totallynormal:apple_sword_recipe"
     ]
   },
   "parent": "totallynormal:eat_lapis_apple"

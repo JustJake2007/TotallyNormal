@@ -36,16 +36,17 @@ public class Dirt_OreOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new Dirt_OreOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("totallynormal:dirt_ore_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()),
-						TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState())), 4));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIRT.defaultBlockState()), TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState())), 4));
 		PLACED_FEATURE = PlacementUtils.register("totallynormal:dirt_ore_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(15), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(86)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(86)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set
-			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("totallynormal:dirt")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("totallynormal:dirt")));
 
 	public Dirt_OreOreFeature() {
 		super(OreConfiguration.CODEC);

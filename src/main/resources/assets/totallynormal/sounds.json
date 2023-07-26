@@ -1,0 +1,18 @@
+{
+  "fitness_gram_pacer_test": {
+    "sounds": [
+      {
+        "name": "totallynormal:20meterpacer_2017_-_copy",
+        "stream": true
+      }
+    ]
+  },
+  "technochased": {
+    "sounds": [
+      {
+        "name": "totallynormal:chased",
+        "stream": false
+      }
+    ]
+  }
+}

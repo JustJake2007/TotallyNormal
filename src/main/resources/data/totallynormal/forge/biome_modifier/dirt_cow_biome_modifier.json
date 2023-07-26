@@ -3,7 +3,7 @@
   "biomes": "totallynormal:dirts",
   "spawners": {
     "type": "totallynormal:dirt_cow",
-    "weight": 20,
+    "weight": 40,
     "minCount": 2,
     "maxCount": 10
   }

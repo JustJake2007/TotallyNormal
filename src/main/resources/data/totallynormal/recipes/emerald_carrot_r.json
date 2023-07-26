@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:emerald_fragment"
+    },
+    "1": {
+      "item": "totallynormal:emerald_fragment"
+    },
+    "2": {
+      "item": "totallynormal:emerald_fragment"
+    },
+    "3": {
+      "item": "totallynormal:emerald_fragment"
+    },
+    "4": {
+      "item": "minecraft:carrot"
+    },
+    "5": {
+      "item": "totallynormal:emerald_fragment"
+    },
+    "6": {
+      "item": "totallynormal:emerald_fragment"
+    },
+    "7": {
+      "item": "totallynormal:emerald_fragment"
+    },
+    "8": {
+      "item": "totallynormal:emerald_fragment"
+    }
+  },
+  "result": {
+    "item": "totallynormal:emerald_carrot",
+    "count": 1
+  }
+}

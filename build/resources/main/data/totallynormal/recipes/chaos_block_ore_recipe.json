@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "totallynormal:chaos_block"
+    }
+  ],
+  "result": {
+    "item": "totallynormal:chaos",
+    "count": 9
+  }
+}

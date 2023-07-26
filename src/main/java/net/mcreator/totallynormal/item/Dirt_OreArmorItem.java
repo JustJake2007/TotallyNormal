@@ -6,7 +6,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -14,6 +13,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 import net.mcreator.totallynormal.init.TotallynormalModItems;
 
 public abstract class Dirt_OreArmorItem extends ArmorItem {
@@ -63,7 +63,7 @@ public abstract class Dirt_OreArmorItem extends ArmorItem {
 
 	public static class Helmet extends Dirt_OreArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(TotallynormalModTabs.TAB_DIRT_TAB));
 		}
 
 		@Override
@@ -74,7 +74,7 @@ public abstract class Dirt_OreArmorItem extends ArmorItem {
 
 	public static class Chestplate extends Dirt_OreArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(TotallynormalModTabs.TAB_DIRT_TAB));
 		}
 
 		@Override
@@ -85,7 +85,7 @@ public abstract class Dirt_OreArmorItem extends ArmorItem {
 
 	public static class Leggings extends Dirt_OreArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(TotallynormalModTabs.TAB_DIRT_TAB));
 		}
 
 		@Override
@@ -96,7 +96,7 @@ public abstract class Dirt_OreArmorItem extends ArmorItem {
 
 	public static class Boots extends Dirt_OreArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(TotallynormalModTabs.TAB_DIRT_TAB));
 		}
 
 		@Override

@@ -12,7 +12,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.totallynormal.world.features.ores.RubyOreFeature;
+import net.mcreator.totallynormal.world.features.ores.RadiumOreFeature;
 import net.mcreator.totallynormal.world.features.ores.Dirt_OreOreFeature;
+import net.mcreator.totallynormal.world.features.MudFeatureFeature;
 import net.mcreator.totallynormal.TotallynormalMod;
 
 @Mod.EventBusSubscriber

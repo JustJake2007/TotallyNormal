@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "totallynormal:radium_ore"
+  },
+  "result": "totallynormal:radium_dust"
+}

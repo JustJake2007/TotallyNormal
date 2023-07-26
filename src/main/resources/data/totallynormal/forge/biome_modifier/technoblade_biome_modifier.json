@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "basalt_deltas",
+    "plains",
+    "totallynormal:wastelands"
+  ],
+  "spawners": {
+    "type": "totallynormal:technoblade",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

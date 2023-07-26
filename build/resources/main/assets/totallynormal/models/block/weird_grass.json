@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "totallynormal:blocks/purple_dirt_bottom",
+    "top": "totallynormal:blocks/purple_grass_top",
+    "side": "totallynormal:blocks/purple_grass_side",
+    "overlay": "totallynormal:blocks/purple_grass_side",
+    "particle": "totallynormal:blocks/purple_dirt_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

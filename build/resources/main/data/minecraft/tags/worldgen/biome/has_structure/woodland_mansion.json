@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "totallynormal:dirts"
+    "totallynormal:dirts",
+    "totallynormal:confusion_biome"
   ]
 }

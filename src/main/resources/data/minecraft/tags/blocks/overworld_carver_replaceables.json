@@ -4,6 +4,8 @@
     "minecraft:dirt",
     "minecraft:rooted_dirt",
     "totallynormal:ash",
-    "minecraft:stone"
+    "minecraft:stone",
+    "totallynormal:luminara",
+    "totallynormal:weird_grass"
   ]
 }

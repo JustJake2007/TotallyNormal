@@ -1,0 +1,17 @@
+{
+  "totallynormal:god_sword_a": {
+    "criteria": {
+      "god_sword_a": "2023-07-16 12:54:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2023-07-16 12:55:05 -0400",
+      "minecraft:meadow": "2023-07-16 12:56:00 -0400",
+      "minecraft:plains": "2023-07-16 12:53:56 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

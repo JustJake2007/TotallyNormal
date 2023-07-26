@@ -1,0 +1,13 @@
+{
+  "group": "wooden_button",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "totallynormal:moonshadow_planks"
+    }
+  ],
+  "result": {
+    "item": "totallynormal:moonshadow_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "dripstone_caves",
+    "deep_dark",
+    "totallynormal:wastelands",
+    "totallynormal:dirts"
+  ],
+  "spawners": {
+    "type": "totallynormal:him",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

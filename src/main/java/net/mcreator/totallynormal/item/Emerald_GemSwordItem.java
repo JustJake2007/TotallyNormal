@@ -7,7 +7,8 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.totallynormal.init.TotallynormalModTabs;
 
 public class Emerald_GemSwordItem extends SwordItem {
 	public Emerald_GemSwordItem() {
@@ -21,7 +22,7 @@ public class Emerald_GemSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -35,6 +36,6 @@ public class Emerald_GemSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(TotallynormalModTabs.TAB_EMERALD_TOOL_TAB));
 	}
 }

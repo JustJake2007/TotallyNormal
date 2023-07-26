@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:old_rock"
+    },
+    "title": {
+      "translate": "advancements.get_old_rock_2.title"
+    },
+    "description": {
+      "translate": "advancements.get_old_rock_2.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_old_rock_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totallynormal:old_rock"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "totallynormal:deleted_mod_element"
+}

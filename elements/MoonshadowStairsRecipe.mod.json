@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MoonshadowPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoonshadowPlanks"
+      },
+      {
+        "value": "CUSTOM:MoonshadowPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoonshadowPlanks"
+      },
+      {
+        "value": "CUSTOM:MoonshadowPlanks"
+      },
+      {
+        "value": "CUSTOM:MoonshadowPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MoonshadowStairs"
+    },
+    "name": "moonshadow_stairs_recipe",
+    "namespace": "mod"
+  }
+}

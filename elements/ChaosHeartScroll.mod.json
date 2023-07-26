@@ -1,0 +1,45 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "st_scroll",
+    "customModelName": "Normal",
+    "name": "Emerald Staff Scroll",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:RecipeScrolls"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 200,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "ChaosHeartScrollPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": "CUSTOM:BlankScroll"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "bow"
+  }
+}

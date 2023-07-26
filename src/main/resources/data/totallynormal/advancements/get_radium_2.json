@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:radium_dust"
+    },
+    "title": {
+      "translate": "advancements.get_radium_2.title"
+    },
+    "description": {
+      "translate": "advancements.get_radium_2.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_radium_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totallynormal:radium_dust"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "totallynormal:radium_ore_block_recipe",
+      "totallynormal:radium_block_ore_recipe",
+      "totallynormal:radium_ore_smelting",
+      "totallynormal:radioactive_juice_r"
+    ]
+  },
+  "parent": "totallynormal:deleted_mod_element"
+}

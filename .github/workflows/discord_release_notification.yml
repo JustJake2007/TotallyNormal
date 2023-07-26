@@ -1,0 +1,31 @@
+name: Discord Release Notification
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  send_notification:
+    name: Send Discord Notification
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install axios@latest
+
+      - name: Send Discord Notification
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          RELEASE_NAME=$(echo "${{ github.event.release.name }}" | sed 's/\[/\\[/g' | sed 's/\]/\\]/g')
+          MESSAGE="A new release **${RELEASE_NAME}** is available! Check it out: ${{ github.event.release.html_url }}"
+
+          curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"$MESSAGE\"}" $WEBHOOK_URL

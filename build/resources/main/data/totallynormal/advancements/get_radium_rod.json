@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:radium_rod"
+    },
+    "title": {
+      "translate": "advancements.get_radium_rod.title"
+    },
+    "description": {
+      "translate": "advancements.get_radium_rod.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_radium_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totallynormal:radium_rod"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "totallynormal:get_radium"
+}

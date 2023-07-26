@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:chaos"
+    },
+    "1": {
+      "item": "totallynormal:chaos"
+    },
+    "2": {
+      "item": "totallynormal:chaos"
+    },
+    "3": {
+      "item": "totallynormal:chaos"
+    },
+    "4": {
+      "item": "totallynormal:chaos"
+    },
+    "5": {
+      "item": "totallynormal:chaos"
+    },
+    "6": {
+      "item": "totallynormal:chaos"
+    },
+    "7": {
+      "item": "totallynormal:chaos"
+    },
+    "8": {
+      "item": "totallynormal:chaos"
+    }
+  },
+  "result": {
+    "item": "totallynormal:chaos_block",
+    "count": 1
+  }
+}

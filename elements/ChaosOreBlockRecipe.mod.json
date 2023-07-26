@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      },
+      {
+        "value": "CUSTOM:Chaos"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChaosBlock"
+    },
+    "name": "chaos_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

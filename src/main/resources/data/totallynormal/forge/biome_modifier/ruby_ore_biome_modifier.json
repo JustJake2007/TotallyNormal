@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "warm_ocean",
+    "taiga",
+    "deep_lukewarm_ocean",
+    "cold_ocean",
+    "deep_ocean",
+    "snowy_taiga",
+    "deep_cold_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "windswept_hills",
+    "beach",
+    "windswept_gravelly_hills",
+    "totallynormal:wastelands"
+  ],
+  "features": "totallynormal:ruby_ore",
+  "step": "underground_ores"
+}

@@ -9,7 +9,10 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.totallynormal.client.renderer.TechnobladeRenderer;
 import net.mcreator.totallynormal.client.renderer.LivingDirtBlockRenderer;
+import net.mcreator.totallynormal.client.renderer.HimRenderer;
+import net.mcreator.totallynormal.client.renderer.EmeraldPigRenderer;
 import net.mcreator.totallynormal.client.renderer.DirtCowRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

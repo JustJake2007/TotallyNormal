@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "totallynormal:radium_block"
+    }
+  ],
+  "result": {
+    "item": "totallynormal:radium_dust",
+    "count": 4
+  }
+}

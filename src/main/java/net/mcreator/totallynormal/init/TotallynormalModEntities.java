@@ -16,7 +16,10 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.totallynormal.entity.TechnobladeEntity;
 import net.mcreator.totallynormal.entity.LivingDirtBlockEntity;
+import net.mcreator.totallynormal.entity.HimEntity;
+import net.mcreator.totallynormal.entity.EmeraldPigEntity;
 import net.mcreator.totallynormal.entity.DirtCowEntity;
 import net.mcreator.totallynormal.TotallynormalMod;
 

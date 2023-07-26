@@ -9,7 +9,6 @@ displayName="Totally Normal"
 credits="This is by enderboii on discord, please enjoy!"
 displayURL="https://github.com/JustJake2007/TotallyNormal"
 updateJSONURL="https://github.com/JustJake2007/TotallyNormalhttps://github.com/JustJake2007/TotallyNormal"
-logoFile="logo.png"
 authors="hite1, MCreator"
 description="This is completely normal with nothing wrong about it : Make sure to have fun and enjoy your stay!)"
 
@@ -21,11 +20,5 @@ description="This is completely normal with nothing wrong about it : Make sure t
     side="BOTH"
 
 
-[[dependencies.totallynormal]]
-    modId="mcreator_link"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 
