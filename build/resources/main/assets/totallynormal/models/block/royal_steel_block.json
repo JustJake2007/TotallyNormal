@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "totallynormal:blocks/royal_steel_ore_block",
+    "particle": "totallynormal:blocks/royal_steel_ore_block"
+  },
+  "render_type": "solid"
+}

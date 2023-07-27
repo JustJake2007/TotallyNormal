@@ -1940,6 +1940,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/totallynormal/client/renderer/TechnobladeRenderer.java",
+          "src/main/java/net/mcreator/totallynormal/entity/TechnobladeEntityProjectile.java",
           "src/main/java/net/mcreator/totallynormal/entity/TechnobladeEntity.java",
           "src/main/resources/data/totallynormal/forge/biome_modifier/technoblade_biome_modifier.json",
           "src/main/resources/assets/totallynormal/models/item/technoblade_spawn_egg.json"
@@ -2706,7 +2707,7 @@
           "src/main/resources/assets/totallynormal/models/item/chaos.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
     },
     {
       "name": "ChaosOre",
@@ -2717,13 +2718,15 @@
       "registry_name": "chaos_ore",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/totallynormal/world/features/ores/ChaosOreFeature.java",
           "src/main/resources/assets/totallynormal/blockstates/chaos_ore.json",
           "src/main/resources/assets/totallynormal/models/item/chaos_ore.json",
           "src/main/java/net/mcreator/totallynormal/block/ChaosOreBlock.java",
-          "src/main/resources/assets/totallynormal/models/block/chaos_ore.json"
+          "src/main/resources/assets/totallynormal/models/block/chaos_ore.json",
+          "src/main/resources/data/totallynormal/forge/biome_modifier/chaos_ore_biome_modifier.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
     },
     {
       "name": "ChaosBlock",
@@ -2740,7 +2743,7 @@
           "src/main/resources/assets/totallynormal/models/item/chaos_block.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
     },
     {
       "name": "ChaosOreBlockRecipe",
@@ -2754,7 +2757,7 @@
           "src/main/resources/data/totallynormal/recipes/chaos_ore_block_recipe.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
     },
     {
       "name": "ChaosBlockOreRecipe",
@@ -2768,7 +2771,7 @@
           "src/main/resources/data/totallynormal/recipes/chaos_block_ore_recipe.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
     },
     {
       "name": "ChaosOreSmelting",
@@ -2782,7 +2785,7 @@
           "src/main/resources/data/totallynormal/recipes/chaos_ore_smelting.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
     },
     {
       "name": "ChaosTab",
@@ -2809,7 +2812,7 @@
           "src/main/java/net/mcreator/totallynormal/item/ChargedEmeraldItem.java"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
     },
     {
       "name": "ChargedEmeraldR",
@@ -2823,7 +2826,7 @@
           "src/main/resources/data/totallynormal/recipes/charged_emerald_r.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
     },
     {
       "name": "EmeraldStaffR",
@@ -2901,7 +2904,7 @@
           "src/main/java/net/mcreator/totallynormal/item/ChargedCoalItem.java"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
     },
     {
       "name": "ChargedCoalR",
@@ -2915,7 +2918,7 @@
           "src/main/resources/data/totallynormal/recipes/charged_coal_r.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
     },
     {
       "name": "ChaosHeart",
@@ -2930,7 +2933,7 @@
           "src/main/resources/assets/totallynormal/models/item/chaos_heart.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
     },
     {
       "name": "ChaosHeartR",
@@ -2944,7 +2947,7 @@
           "src/main/resources/data/totallynormal/recipes/chaos_heart_r.json"
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
     },
     {
       "name": "ChaosItemInInventoryTick",
@@ -2964,7 +2967,7 @@
           }
         ]
       },
-      "path": "~/Chaos/Limbo/Chaos Materials"
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
     },
     {
       "name": "ChaosHeartScroll",
@@ -3220,6 +3223,7 @@
     {
       "name": "MoonshadowItemsTag",
       "type": "tag",
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moonshadow_items_tag",
@@ -3380,18 +3384,774 @@
       "registry_name": "limbo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/totallynormal/block/LimboPortalBlock.java",
-          "src/main/java/net/mcreator/totallynormal/world/teleporter/LimboTeleporter.java",
-          "src/main/resources/assets/totallynormal/blockstates/limbo_portal.json",
           "src/main/resources/data/totallynormal/dimension/limbo.json",
-          "src/main/java/net/mcreator/totallynormal/world/teleporter/LimboPortalShape.java",
           "src/main/java/net/mcreator/totallynormal/world/dimension/LimboDimension.java",
-          "src/main/resources/assets/totallynormal/models/block/limbo_portal_ns.json",
-          "src/main/resources/data/totallynormal/dimension_type/limbo.json",
-          "src/main/resources/assets/totallynormal/models/block/limbo_portal_ew.json"
+          "src/main/resources/data/totallynormal/dimension_type/limbo.json"
         ]
       },
       "path": "~/Chaos/Limbo"
+    },
+    {
+      "name": "Dagger",
+      "type": "item",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/DaggerItem.java",
+          "src/main/resources/assets/totallynormal/models/item/dagger.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "CrystalKnightPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_knight_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/CrystalKnightPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "CrystalKnightEntityIsHurt",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_knight_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/CrystalKnightEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "CrystalKnightOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_knight_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/CrystalKnightOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "CrystalKnight",
+      "type": "livingentity",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_knight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/client/renderer/CrystalKnightRenderer.java",
+          "src/main/java/net/mcreator/totallynormal/entity/CrystalKnightEntity.java",
+          "src/main/resources/assets/totallynormal/models/item/crystal_knight_spawn_egg.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "LimboTPItemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_tp_item_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/LimboTPItemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chaos/Limbo"
+    },
+    {
+      "name": "LimboTPItem",
+      "type": "item",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_tp_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/LimboTPItemItem.java",
+          "src/main/resources/assets/totallynormal/models/item/limbo_tp_item.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo"
+    },
+    {
+      "name": "RubyBattleAxeNerfed",
+      "type": "tool",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe_nerfed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/ruby_battle_axe_nerfed.json",
+          "src/main/java/net/mcreator/totallynormal/item/RubyBattleAxeNerfedItem.java"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "Royal_SteelIngot",
+      "type": "item",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/Royal_SteelIngotItem.java",
+          "src/main/resources/assets/totallynormal/models/item/royal_steel_ingot.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "Royal_SteelOre",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_steel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/block/royal_steel_ore.json",
+          "src/main/java/net/mcreator/totallynormal/block/Royal_SteelOreBlock.java",
+          "src/main/resources/assets/totallynormal/blockstates/royal_steel_ore.json",
+          "src/main/java/net/mcreator/totallynormal/world/features/ores/Royal_SteelOreFeature.java",
+          "src/main/resources/data/totallynormal/forge/biome_modifier/royal_steel_ore_biome_modifier.json",
+          "src/main/resources/assets/totallynormal/models/item/royal_steel_ore.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "Royal_SteelBlock",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/blockstates/royal_steel_block.json",
+          "src/main/resources/assets/totallynormal/models/block/royal_steel_block.json",
+          "src/main/java/net/mcreator/totallynormal/block/Royal_SteelBlockBlock.java",
+          "src/main/resources/assets/totallynormal/models/item/royal_steel_block.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "Royal_SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/royal_steel_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "Royal_SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/royal_steel_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "Royal_SteelOreSmelting",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_steel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/royal_steel_ore_smelting.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "RoyalSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/RoyalSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "RoyalSword",
+      "type": "tool",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/RoyalSwordItem.java",
+          "src/main/resources/assets/totallynormal/models/item/royal_sword.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "RoyalSwordR",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_sword_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/royal_sword_r.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "CorruptedCrystal",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/CorruptedCrystalItem.java",
+          "src/main/resources/assets/totallynormal/models/item/corrupted_crystal.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "Knight",
+      "type": "livingentity",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/client/renderer/KnightRenderer.java",
+          "src/main/java/net/mcreator/totallynormal/entity/KnightEntity.java",
+          "src/main/resources/assets/totallynormal/models/item/knight_spawn_egg.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "ChaosHeartBlock",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_heart_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/chaos_heart_block.json",
+          "src/main/resources/assets/totallynormal/blockstates/chaos_heart_block.json",
+          "src/main/resources/assets/totallynormal/models/block/chaos_heart_block.json",
+          "src/main/java/net/mcreator/totallynormal/block/ChaosHeartBlockBlock.java"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "ChaosHeartBlockR",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_heart_block_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/chaos_heart_block_r.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "CorruptedCrystalRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_crystal_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/CorruptedCrystalRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "ChaosOreLoot",
+      "type": "loottable",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/loot_tables/blocks/chaos_ore.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
+    },
+    {
+      "name": "MoonshadowCraftingTableR",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonshadow_crafting_table_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/moonshadow_crafting_table_r.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo"
+    },
+    {
+      "name": "RoyalSteelIngotItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_steel_ingot_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/RoyalSteelIngotItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Royal Steel"
+    },
+    {
+      "name": "Logs",
+      "type": "tag",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedCrystalFragment",
+      "type": "item",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_crystal_fragment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/corrupted_crystal_fragment.json",
+          "src/main/java/net/mcreator/totallynormal/item/CorruptedCrystalFragmentItem.java"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "CorruptedCrystalR",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_crystal_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/recipes/corrupted_crystal_r.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "CorruptedCrystalFragmentItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_crystal_fragment_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/CorruptedCrystalFragmentItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "SorcerorLoot",
+      "type": "loottable",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sorceror_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/loot_tables/entities/sorceror.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "Sorceror",
+      "type": "livingentity",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sorceror",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/client/renderer/SorcerorRenderer.java",
+          "src/main/resources/assets/totallynormal/models/item/sorceror_spawn_egg.json",
+          "src/main/java/net/mcreator/totallynormal/entity/SorcerorEntityProjectile.java",
+          "src/main/java/net/mcreator/totallynormal/entity/SorcerorEntity.java",
+          "src/main/resources/data/totallynormal/forge/biome_modifier/sorceror_biome_modifier.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "ChargedItemsScroll",
+      "type": "item",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_items_scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/item/ChargedItemsScrollItem.java",
+          "src/main/resources/assets/totallynormal/models/item/charged_items_scroll.json"
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "ChargedItemsScrollPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_items_scroll_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/ChargedItemsScrollPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Recipe Scrolls"
+    },
+    {
+      "name": "ChaosHeartItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_heart_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/ChaosHeartItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "StrangeMirrorPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_mirror_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/StrangeMirrorPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wastelands"
+    },
+    {
+      "name": "StrangeMirror",
+      "type": "item",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_mirror",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totallynormal/models/item/strange_mirror.json",
+          "src/main/java/net/mcreator/totallynormal/item/StrangeMirrorItem.java"
+        ]
+      },
+      "path": "~/Chaos/Limbo"
+    },
+    {
+      "name": "Test1",
+      "type": "structure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/forge/biome_modifier/limbo_temple_biome_modifier.json",
+          "src/main/java/net/mcreator/totallynormal/world/features/Test1Feature.java"
+        ]
+      },
+      "path": "~/Chaos"
+    },
+    {
+      "name": "GetMirror",
+      "type": "achievement",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_mirror",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/advancements/get_mirror.json"
+        ]
+      },
+      "path": "~/Chaos"
+    },
+    {
+      "name": "EnterLimbo",
+      "type": "achievement",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_limbo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/advancements/enter_limbo.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo"
+    },
+    {
+      "name": "GetChaosGem",
+      "type": "achievement",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_chaos_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/advancements/get_chaos_gem.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Chaos Ore"
+    },
+    {
+      "name": "GetChargedEmerald",
+      "type": "achievement",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_charged_emerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/advancements/get_charged_emerald.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
+    },
+    {
+      "name": "GetChargedCoal",
+      "type": "achievement",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_charged_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/advancements/get_charged_coal.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
+    },
+    {
+      "name": "CraftChaosHeart",
+      "type": "achievement",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_chaos_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/advancements/craft_chaos_heart.json"
+        ]
+      },
+      "path": "~/Chaos/Limbo/Chaos Materials/Charged Materials"
+    },
+    {
+      "name": "KillCrystalKnight",
+      "type": "achievement",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_crystal_knight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totallynormal/advancements/kill_crystal_knight.json"
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
+    },
+    {
+      "name": "CrystalKnightEntityDies",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_knight_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totallynormal/procedures/CrystalKnightEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chaos/Crystal Knight"
     }
   ],
   "variable_elements": [],
@@ -3417,17 +4177,21 @@
     "en_us": {
       "item.totallynormal.emerald_gem_shovel": "Emerald Shovel",
       "item.totallynormal.when_you_dont_have_enough_gold_and_you_use_some_lapis_instead_apple": "When You Dont Have Enough Gold And You Use Some Lapis Instead Apple",
+      "item.totallynormal.crystal_knight_spawn_egg": "Crystal Knight Spawn Egg",
       "itemGroup.tabwastelands_tab": "Wastelands",
-      "item.totallynormal.radium_dust": "Radium",
-      "item.totallynormal.ruby_t_axe": "Ruby Axe",
       "block.totallynormal.luminara": "Luminara",
+      "item.totallynormal.ruby_t_axe": "Ruby Axe",
+      "item.totallynormal.radium_dust": "Radium",
       "item.totallynormal.emerald_staff": "Emerald Staff",
       "block.totallynormal.radium_block": "Block of Radium",
       "advancements.eating_half_golden_apple.title": "Cheapskate",
       "advancements.apple_sword_a.descr": "I mean it looks nice",
       "subtitles.technochased": "",
+      "advancements.craft_chaos_heart.title": "What are you going to do with this?",
       "advancements.dirt_ingot_gathered.descr": "You\u0027ve Smelted Your First Dirt Ingot! I wonder what can be done with this!",
+      "item.totallynormal.knight_spawn_egg": "Knight Spawn Egg",
       "item.totallynormal.dirt_ore_armor_chestplate": "Dirt Chestplate",
+      "advancements.get_chaos_gem.title": "What kind of a name is that?",
       "entity.totallynormal.him": "Him",
       "item.totallynormal.dirt_ore_armor_boots": "Dirt Boots",
       "block.totallynormal.ruby_ore": "Ruby Ore",
@@ -3458,24 +4222,35 @@
       "block.totallynormal.moonshadow_pressure_plate": "Moonshadow Pressure Plate",
       "advancements.eat_iron_apple_a.title": "Eat An Iron Apple",
       "advancements.get_radium_2.title": "Collected Radium",
+      "item.totallynormal.dagger": "Dagger",
       "advancements.going_to_dirt_dimension.title": "You\u0027ve Arrived",
       "block.totallynormal.weird_grass": "Weird Grass",
       "item.minecraft.splash_potion.effect.radioactive_juice": "Splash Bottle of Radioactive Juice",
       "advancements.get_a_emerald.descr": "Why is it green?",
       "block.totallynormal.dirt_ore_ore": "Dirt Ore",
+      "item.totallynormal.strange_mirror": "Strange Mirror",
       "block.totallynormal.dirt_apple_block": "Dirt Apple Block",
+      "item.totallynormal.charged_items_scroll": "Charged Scroll",
       "advancements.wear_dirt_armor.title": "Suiting... Up?",
       "item.totallynormal.dirt_apple": "Dirt Apple",
       "item.totallynormal.emerald_staff_scroll": "Emerald Staff Scroll",
+      "block.totallynormal.royal_steel_block": "Block of Royal Steel",
+      "advancements.get_mirror.title": "I can\u0027t see myself?",
       "item.totallynormal.emerald_pig_spawn_egg": "Emerald Pig Spawn Egg",
+      "advancements.enter_limbo.title": "Why is everything purple?",
       "item.totallynormal.chaos_heart_scroll": "Emerald Staff Scroll",
       "item.minecraft.lingering_potion.effect.radioactive_juice": "Lingering Bottle of Radioactive Juice",
       "item.totallynormal.dirt_ore_ingot": "Dirt Ingot",
+      "entity.totallynormal.knight": "Knight",
       "item.totallynormal.pocket_watch": "Pocket Watch",
+      "advancements.kill_crystal_knight.descr": "Kill the first story boss!",
       "item.totallynormal.emerald_fragment": "Emerald Fragment",
       "entity.minecraft.villager.totallynormal.magician": "Magician",
       "advancements.get_a_emerald.title": "These Aren\u0027t Diamonds!",
       "item.totallynormal.dirt_ore_axe": "Dirt Axe",
+      "item.totallynormal.corrupted_crystal": "Corrupted Crystal",
+      "block.totallynormal.royal_steel_ore": "Royal Steel Ore",
+      "item.totallynormal.ruby_battle_axe_nerfed": "Knight\u0027s Ruby Battle Axe",
       "block.totallynormal.chaos_ore": "Chaos Ore",
       "item.totallynormal.dirt_cow_spawn_egg": "Dirt Cow Spawn Egg",
       "item.totallynormal.old_rock": "Old Rock",
@@ -3497,25 +4272,32 @@
       "advancements.eating_half_golden_apple.descr": "You had to cheap out on materials",
       "item.totallynormal.apple_sword": "Apple Sword",
       "item.totallynormal.ruby_t_shovel": "Ruby Shovel",
+      "item.totallynormal.royal_sword": "Royal Sword",
       "block.totallynormal.dirt_ore_block": "Block of Dirt",
       "block.totallynormal.ash": "Ash",
       "item.totallynormal.him_spawn_egg": "Him Spawn Egg",
       "advancements.get_old_rock_2.descr": "What is this thing?",
+      "entity.totallynormal.crystal_knight": "Crystal Knight",
       "block.totallynormal.moonshadow_leaves": "Moonshadow Leaves",
       "entity.totallynormal.emerald_pig": "Emerald Pig",
       "subtitles.fitness_gram_pacer_test": "",
       "item.totallynormal.apple_sword_scroll": "Apple Sword Scroll",
       "item.totallynormal.mud_bucket": "Mud Bucket",
+      "advancements.get_chaos_gem.descr": "Get a chaos gem",
       "item.totallynormal.ruby": "Ruby",
       "block.totallynormal.moonshadow_slab": "Moonshadow Slab",
+      "item.totallynormal.royal_steel_ingot": "Royal Steel",
       "item.totallynormal.ruby_battle_axe": "Ruby Battle Axe",
       "advancements.dirt_ingot_gathered.title": "Dirt...Ore?",
       "block.totallynormal.chaos_block": "Block of Chaos",
+      "advancements.get_charged_coal.title": "Now that\u0027s hot",
       "block.totallynormal.moonshadow_fence_gate": "Moonshadow Fence Gate",
       "advancements.apple_sword_a.title": "You crafted an... apple sword?",
       "block.totallynormal.moonshadow_stairs": "Moonshadow Stairs",
       "item.totallynormal.dirt_ore_hoe": "Dirt Hoe",
+      "advancements.get_mirror.descr": "I wonder if it\u0027s cursed",
       "itemGroup.tabemerald_tool_tab": "Emerald Tool",
+      "advancements.craft_chaos_heart.descr": "Craft a chaos heart",
       "itemGroup.tabrecipe_scrolls": "Recipe Scrolls",
       "block.totallynormal.radium_ore": "Radium Ore",
       "item.totallynormal.diamond_apple": "Diamond Apple",
@@ -3530,7 +4312,9 @@
       "entity.totallynormal.technoblade": "Technoblade",
       "item.totallynormal.blank_scroll": "Blank Scroll",
       "advancements.wear_dirt_armor.descr": "Getting Dirty With Dirt Armor",
+      "advancements.enter_limbo.descr": "Enter l͓̠͍̣̘̪̱̜ͤ̾͝í̬̓̀͠m̴̵͔͇͚̋ͮͨͮ̀b̖͂ͪͣ̿͋o͖̪̥̤͉͓͔̹͒̃̓͟ͅ",
       "advancements.start_of_dirt.descr": "You\u0027ve collected your first dirt block",
+      "entity.totallynormal.sorceror": "Sorceror",
       "item.totallynormal.dirt_ore_shovel": "Dirt Shovel",
       "advancements.enter_wastelands_2.descr": "Find a barren wasteland",
       "item.totallynormal.wasteland": "???",
@@ -3539,14 +4323,22 @@
       "itemGroup.tabapples_tab": "Apples",
       "advancements.start_of_dirt.title": "Start Of Something Big",
       "item.totallynormal.emerald_gem_armor_leggings": "Emerald Leggings",
+      "item.totallynormal.sorceror_spawn_egg": "Sorceror Spawn Egg",
+      "advancements.get_charged_emerald.title": "Shocking!",
       "item.totallynormal.coin": "Coin",
+      "item.totallynormal.corrupted_crystal_fragment": "Corrupted Crystal Fragment",
       "item.totallynormal.emerald_gem_armor_chestplate": "Emerald Chestplate",
+      "block.totallynormal.chaos_heart_block": "Chaos Heart Block",
       "item.totallynormal.dirt_ore_sword": "Dirt Sword",
+      "advancements.kill_crystal_knight.title": "That was easy",
       "advancements.eat_diamond_apple.title": "Eat A Diamond Apple",
       "item.totallynormal.emerald_gem_pickaxe": "Emerald Pickaxe",
       "item.totallynormal.ruby_t_pickaxe": "Ruby Pickaxe",
       "block.totallynormal.moonshadow_log": "Moonshadow Log",
       "item.totallynormal.chaos_heart": "Chaos Heart",
+      "advancements.get_charged_emerald.descr": "Charge an emerald!",
+      "item.totallynormal.limbo_tp_item": "Limbo TP Item",
+      "advancements.get_charged_coal.descr": "Charge a piece of coal",
       "itemGroup.tabtotally_normal_tab": "Totally Normal",
       "itemGroup.tabdirt_tab": "Dirt",
       "itemGroup.tabruby_tab": "Ruby",
@@ -3609,9 +4401,26 @@
             "children": [
               {
                 "name": "Chaos Materials",
-                "children": []
+                "children": [
+                  {
+                    "name": "Chaos Ore",
+                    "children": []
+                  },
+                  {
+                    "name": "Charged Materials",
+                    "children": []
+                  },
+                  {
+                    "name": "Royal Steel",
+                    "children": []
+                  }
+                ]
               }
             ]
+          },
+          {
+            "name": "Crystal Knight",
+            "children": []
           }
         ]
       }
@@ -3620,11 +4429,11 @@
   "workspaceSettings": {
     "modid": "totallynormal",
     "modName": "Totally Normal",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "description": "This is completely normal with nothing wrong about it : Make sure to have fun and enjoy your stay!)",
     "author": "hite1, MCreator",
     "websiteURL": "https://github.com/JustJake2007/TotallyNormal",
-    "license": "All Rights Reserved",
+    "license": "Public Domain",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "updateURL": "https://github.com/JustJake2007/TotallyNormalhttps://github.com/JustJake2007/TotallyNormal",

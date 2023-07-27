@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:chaos"
+    },
+    "title": {
+      "translate": "advancements.get_chaos_gem.title"
+    },
+    "description": {
+      "translate": "advancements.get_chaos_gem.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_chaos_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totallynormal:chaos"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "totallynormal:chaos_ore_block_recipe",
+      "totallynormal:chaos_block_ore_recipe",
+      "totallynormal:chaos_ore_smelting"
+    ]
+  },
+  "parent": "totallynormal:enter_limbo"
+}

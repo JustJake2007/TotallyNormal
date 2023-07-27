@@ -1,0 +1,36 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Why is everything purple?",
+    "achievementDescription": "Enter l͓̠͍̣̘̪̱̜ͤ̾͝í̬̓̀͠m̴̵͔͇͚̋ͮͨͮ̀b̖͂ͪͣ̿͋o͖̪̥̤͉͓͔̹͒̃̓͟ͅ",
+    "achievementIcon": {
+      "value": "CUSTOM:LimboTPItem"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "MoonshadowWoodRecipe",
+      "MoonshadowPlanksRecipe",
+      "MoonshadowStairsRecipe",
+      "MoonshadowSlabRecipe",
+      "MoonshadowFenceRecipe",
+      "MoonshadowFenceGateRecipe",
+      "MoonshadowPressurePlateRecipe",
+      "MoonshadowButtonRecipe",
+      "MoonshadowStickRecipe",
+      "MoonshadowCraftingTableR"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:GetMirror"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"47\" y=\"44\"><field name=\"dimension\">CUSTOM:Limbo</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

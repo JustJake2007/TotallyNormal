@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:chaos_heart"
+    },
+    "title": {
+      "translate": "advancements.craft_chaos_heart.title"
+    },
+    "description": {
+      "translate": "advancements.craft_chaos_heart.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_chaos_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totallynormal:chaos_heart"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "totallynormal:chaos_heart_block_r"
+    ]
+  },
+  "parent": "totallynormal:get_charged_emerald"
+}

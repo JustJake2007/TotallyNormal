@@ -7,7 +7,7 @@
         "value": "CUSTOM:ConfusionBiome"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "CUSTOM:Luminara"
     },
@@ -42,6 +42,6 @@
     },
     "texture": "",
     "portalTexture": "moonshadow_leaves",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

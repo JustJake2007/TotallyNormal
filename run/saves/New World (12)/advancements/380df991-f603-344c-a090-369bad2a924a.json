@@ -1,0 +1,32 @@
+{
+  "totallynormal:starting": {
+    "criteria": {
+      "starting": "2023-07-27 17:22:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_the_recipe": "2023-07-27 17:22:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2023-07-27 17:20:56 -0400",
+      "minecraft:beach": "2023-07-27 17:19:45 -0400",
+      "minecraft:river": "2023-07-27 17:20:20 -0400",
+      "minecraft:forest": "2023-07-27 17:20:24 -0400",
+      "minecraft:windswept_forest": "2023-07-27 17:21:00 -0400",
+      "minecraft:plains": "2023-07-27 17:19:55 -0400"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-07-27 17:22:23 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

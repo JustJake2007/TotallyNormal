@@ -42,7 +42,7 @@ public class Dirt_OreOreFeature extends OreFeature {
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIRT.defaultBlockState()), TotallynormalModBlocks.DIRT_ORE_ORE.get().defaultBlockState())), 4));
 		PLACED_FEATURE = PlacementUtils.register("totallynormal:dirt_ore_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(86)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(30), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(86)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

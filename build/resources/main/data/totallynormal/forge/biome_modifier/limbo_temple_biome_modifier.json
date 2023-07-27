@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "old_growth_birch_forest",
+    "bamboo_jungle",
+    "forest",
+    "sunflower_plains",
+    "snowy_plains",
+    "sparse_jungle",
+    "dark_forest",
+    "plains",
+    "birch_forest",
+    "flower_forest",
+    "windswept_forest",
+    "jungle"
+  ],
+  "features": "totallynormal:limbo_temple",
+  "step": "surface_structures"
+}

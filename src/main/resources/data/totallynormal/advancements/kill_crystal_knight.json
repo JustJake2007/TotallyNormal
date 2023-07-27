@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:corrupted_crystal"
+    },
+    "title": {
+      "translate": "advancements.kill_crystal_knight.title"
+    },
+    "description": {
+      "translate": "advancements.kill_crystal_knight.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_crystal_knight": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "totallynormal:chests/scrolls_low_loot"
+    ]
+  },
+  "parent": "totallynormal:craft_chaos_heart"
+}

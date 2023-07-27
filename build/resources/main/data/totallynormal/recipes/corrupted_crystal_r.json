@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    },
+    "1": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    },
+    "2": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    },
+    "3": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    },
+    "4": {
+      "item": "minecraft:emerald"
+    },
+    "5": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    },
+    "6": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    },
+    "7": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    },
+    "8": {
+      "item": "totallynormal:corrupted_crystal_fragment"
+    }
+  },
+  "result": {
+    "item": "totallynormal:corrupted_crystal",
+    "count": 1
+  }
+}

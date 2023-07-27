@@ -1,0 +1,22 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "warped_forest",
+    "old_growth_birch_forest",
+    "forest",
+    "sunflower_plains",
+    "snowy_plains",
+    "dark_forest",
+    "plains",
+    "birch_forest",
+    "crimson_forest",
+    "flower_forest",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "totallynormal:sorceror",
+    "weight": 15,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

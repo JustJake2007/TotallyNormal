@@ -18,6 +18,7 @@ import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.AmbientParticleSettings;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
@@ -25,6 +26,7 @@ import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.core.particles.ParticleTypes;
 
 import net.mcreator.totallynormal.world.features.treedecorators.ConfusionBiomeFruitDecorator;
+import net.mcreator.totallynormal.init.TotallynormalModEntities;
 import net.mcreator.totallynormal.init.TotallynormalModBlocks;
 
 import java.util.List;
@@ -50,6 +52,7 @@ public class ConfusionBiomeBiome {
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).temperature(0f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
+		mobSpawnInfo.addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(TotallynormalModEntities.KNIGHT.get(), 5, 1, 1));
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.NONE).temperature(2f).downfall(0f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 }

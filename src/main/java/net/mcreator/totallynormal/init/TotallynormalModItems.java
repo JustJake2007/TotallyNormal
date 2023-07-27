@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.totallynormal.item.WhenYouDontHaveEnoughGoldAndYouUseSomeLapisInsteadAppleItem;
 import net.mcreator.totallynormal.item.WastelandItem;
+import net.mcreator.totallynormal.item.StrangeMirrorItem;
 import net.mcreator.totallynormal.item.RubyTSwordItem;
 import net.mcreator.totallynormal.item.RubyTShovelItem;
 import net.mcreator.totallynormal.item.RubyTPickaxeItem;
@@ -23,13 +24,17 @@ import net.mcreator.totallynormal.item.RubyTHoeItem;
 import net.mcreator.totallynormal.item.RubyTAxeItem;
 import net.mcreator.totallynormal.item.RubyItem;
 import net.mcreator.totallynormal.item.RubyBattleAxeScrollItem;
+import net.mcreator.totallynormal.item.RubyBattleAxeNerfedItem;
 import net.mcreator.totallynormal.item.RubyBattleAxeItem;
+import net.mcreator.totallynormal.item.Royal_SteelIngotItem;
+import net.mcreator.totallynormal.item.RoyalSwordItem;
 import net.mcreator.totallynormal.item.RadiumDustItem;
 import net.mcreator.totallynormal.item.PocketWatchScrollItem;
 import net.mcreator.totallynormal.item.PocketWatchItem;
 import net.mcreator.totallynormal.item.OldRockItem;
 import net.mcreator.totallynormal.item.NetheriteAppleItem;
 import net.mcreator.totallynormal.item.MudItem;
+import net.mcreator.totallynormal.item.LimboTPItemItem;
 import net.mcreator.totallynormal.item.LapisAppleItem;
 import net.mcreator.totallynormal.item.IronAppleItem;
 import net.mcreator.totallynormal.item.GodSwordItem;
@@ -55,7 +60,11 @@ import net.mcreator.totallynormal.item.Dirt_OreArmorItem;
 import net.mcreator.totallynormal.item.DirtItem;
 import net.mcreator.totallynormal.item.DirtAppleItem;
 import net.mcreator.totallynormal.item.DiamondAppleItem;
+import net.mcreator.totallynormal.item.DaggerItem;
+import net.mcreator.totallynormal.item.CorruptedCrystalItem;
+import net.mcreator.totallynormal.item.CorruptedCrystalFragmentItem;
 import net.mcreator.totallynormal.item.CoinItem;
+import net.mcreator.totallynormal.item.ChargedItemsScrollItem;
 import net.mcreator.totallynormal.item.ChargedEmeraldItem;
 import net.mcreator.totallynormal.item.ChargedCoalItem;
 import net.mcreator.totallynormal.item.ChaosItem;
@@ -156,6 +165,23 @@ public class TotallynormalModItems {
 	public static final RegistryObject<Item> MOONSHADOW_FENCE_GATE = block(TotallynormalModBlocks.MOONSHADOW_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> MOONSHADOW_PRESSURE_PLATE = block(TotallynormalModBlocks.MOONSHADOW_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> MOONSHADOW_BUTTON = block(TotallynormalModBlocks.MOONSHADOW_BUTTON, TotallynormalModTabs.TAB_DIRT_TAB);
+	public static final RegistryObject<Item> DAGGER = REGISTRY.register("dagger", () -> new DaggerItem());
+	public static final RegistryObject<Item> CRYSTAL_KNIGHT_SPAWN_EGG = REGISTRY.register("crystal_knight_spawn_egg",
+			() -> new ForgeSpawnEggItem(TotallynormalModEntities.CRYSTAL_KNIGHT, -13421569, -16764058, new Item.Properties().tab(TotallynormalModTabs.TAB_CHAOS_TAB)));
+	public static final RegistryObject<Item> LIMBO_TP_ITEM = REGISTRY.register("limbo_tp_item", () -> new LimboTPItemItem());
+	public static final RegistryObject<Item> RUBY_BATTLE_AXE_NERFED = REGISTRY.register("ruby_battle_axe_nerfed", () -> new RubyBattleAxeNerfedItem());
+	public static final RegistryObject<Item> ROYAL_STEEL_ORE = block(TotallynormalModBlocks.ROYAL_STEEL_ORE, TotallynormalModTabs.TAB_CHAOS_TAB);
+	public static final RegistryObject<Item> ROYAL_STEEL_BLOCK = block(TotallynormalModBlocks.ROYAL_STEEL_BLOCK, TotallynormalModTabs.TAB_CHAOS_TAB);
+	public static final RegistryObject<Item> ROYAL_STEEL_INGOT = REGISTRY.register("royal_steel_ingot", () -> new Royal_SteelIngotItem());
+	public static final RegistryObject<Item> ROYAL_SWORD = REGISTRY.register("royal_sword", () -> new RoyalSwordItem());
+	public static final RegistryObject<Item> CORRUPTED_CRYSTAL = REGISTRY.register("corrupted_crystal", () -> new CorruptedCrystalItem());
+	public static final RegistryObject<Item> KNIGHT_SPAWN_EGG = REGISTRY.register("knight_spawn_egg", () -> new ForgeSpawnEggItem(TotallynormalModEntities.KNIGHT, -8684677, -1, new Item.Properties().tab(TotallynormalModTabs.TAB_CHAOS_TAB)));
+	public static final RegistryObject<Item> CHAOS_HEART_BLOCK = block(TotallynormalModBlocks.CHAOS_HEART_BLOCK, TotallynormalModTabs.TAB_CHAOS_TAB);
+	public static final RegistryObject<Item> CORRUPTED_CRYSTAL_FRAGMENT = REGISTRY.register("corrupted_crystal_fragment", () -> new CorruptedCrystalFragmentItem());
+	public static final RegistryObject<Item> SORCEROR_SPAWN_EGG = REGISTRY.register("sorceror_spawn_egg",
+			() -> new ForgeSpawnEggItem(TotallynormalModEntities.SORCEROR, -4375365, -12048741, new Item.Properties().tab(TotallynormalModTabs.TAB_TOTALLY_NORMAL_TAB)));
+	public static final RegistryObject<Item> CHARGED_ITEMS_SCROLL = REGISTRY.register("charged_items_scroll", () -> new ChargedItemsScrollItem());
+	public static final RegistryObject<Item> STRANGE_MIRROR = REGISTRY.register("strange_mirror", () -> new StrangeMirrorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

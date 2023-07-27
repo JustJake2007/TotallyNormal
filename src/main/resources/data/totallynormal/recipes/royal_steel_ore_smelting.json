@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.91,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "totallynormal:royal_steel_ore"
+  },
+  "result": "totallynormal:royal_steel_ingot"
+}

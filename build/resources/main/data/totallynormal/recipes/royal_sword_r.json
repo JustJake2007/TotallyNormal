@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "addition": {
+    "item": "totallynormal:royal_steel_ingot"
+  },
+  "result": {
+    "item": "totallynormal:royal_sword"
+  }
+}

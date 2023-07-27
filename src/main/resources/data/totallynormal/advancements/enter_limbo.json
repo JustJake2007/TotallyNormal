@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "totallynormal:limbo_tp_item"
+    },
+    "title": {
+      "translate": "advancements.enter_limbo.title"
+    },
+    "description": {
+      "translate": "advancements.enter_limbo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_limbo": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "totallynormal:limbo"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "totallynormal:moonshadow_wood_recipe",
+      "totallynormal:moonshadow_planks_recipe",
+      "totallynormal:moonshadow_stairs_recipe",
+      "totallynormal:moonshadow_slab_recipe",
+      "totallynormal:moonshadow_fence_recipe",
+      "totallynormal:moonshadow_fence_gate_recipe",
+      "totallynormal:moonshadow_pressure_plate_recipe",
+      "totallynormal:moonshadow_button_recipe",
+      "totallynormal:moonshadow_stick_recipe",
+      "totallynormal:moonshadow_crafting_table_r"
+    ]
+  },
+  "parent": "totallynormal:get_mirror"
+}

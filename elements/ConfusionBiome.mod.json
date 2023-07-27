@@ -34,8 +34,8 @@
       "value": "SLIME"
     },
     "particlesProbability": 0.02,
-    "rainingPossibility": 0.5,
-    "temperature": 0.0,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -100,6 +100,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "STANDARD",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Knight"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
